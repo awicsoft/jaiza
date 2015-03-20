@@ -1,0 +1,2 @@
+[20-Feb-2015 16:34:27 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/Session/SessionTest.php on line 27
+[20-Feb-2015 16:34:27 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/Session/SessionTest.php on line 27

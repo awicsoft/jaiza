@@ -1,0 +1,6 @@
+[20-Feb-2015 16:28:46 UTC] PHP Fatal error:  Cannot redeclare iconv() in /home/efuncore/public_html/atms/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/iconv.php on line 18
+[20-Feb-2015 16:28:46 UTC] PHP Fatal error:  Cannot redeclare mb_convert_encoding() in /home/efuncore/public_html/atms/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/mbstring.php on line 20
+[20-Feb-2015 16:28:46 UTC] PHP Fatal error:  Cannot redeclare iconv() in /home/efuncore/public_html/atms/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/iconv.php on line 18
+[20-Feb-2015 16:28:46 UTC] PHP Fatal error:  Cannot redeclare utf8_encode() in /home/efuncore/public_html/atms/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/utf8_encode.php on line 13
+[20-Feb-2015 16:28:46 UTC] PHP Fatal error:  Cannot redeclare mb_convert_encoding() in /home/efuncore/public_html/atms/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/mbstring.php on line 20
+[20-Feb-2015 16:28:47 UTC] PHP Fatal error:  Cannot redeclare utf8_encode() in /home/efuncore/public_html/atms/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/utf8_encode.php on line 13

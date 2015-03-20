@@ -1,0 +1,2 @@
+[15-Jan-2015 15:58:20 UTC] PHP Warning:  require_once(/home/efuncore/public_html/atms/vendor/filp/whoops/tests/../vendor/autoload.php): failed to open stream: No such file or directory in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/bootstrap.php on line 9
+[15-Jan-2015 15:58:20 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/efuncore/public_html/atms/vendor/filp/whoops/tests/../vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/bootstrap.php on line 9

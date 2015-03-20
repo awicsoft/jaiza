@@ -1,0 +1,11 @@
+[27-Dec-2014 07:59:55 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/WildfireFormatterTest.php on line 17
+[27-Dec-2014 08:01:03 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/ElasticaFormatterTest.php on line 17
+[08-Feb-2015 01:33:12 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/LineFormatterTest.php on line 18
+[12-Feb-2015 18:58:22 UTC] PHP Fatal error:  Class 'Monolog\TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/FlowdockFormatterTest.php on line 18
+[14-Feb-2015 02:14:23 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/ChromePHPFormatterTest.php on line 17
+[14-Feb-2015 14:52:16 UTC] PHP Fatal error:  Class 'Monolog\TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php on line 18
+[18-Feb-2015 04:45:58 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/NormalizerFormatterTest.php on line 18
+[21-Feb-2015 04:48:05 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/LogstashFormatterTest.php on line 17
+[21-Feb-2015 06:03:52 UTC] PHP Fatal error:  Class 'Monolog\TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/LogglyFormatterTest.php on line 17
+[21-Feb-2015 08:35:27 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/ScalarFormatterTest.php on line 5
+[24-Feb-2015 04:44:53 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/tests/Monolog/Formatter/GelfMessageFormatterTest.php on line 17

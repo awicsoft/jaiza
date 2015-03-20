@@ -1,0 +1,2 @@
+[20-Feb-2015 16:29:24 UTC] PHP Fatal error:  Interface 'Swift_Mailer_RecipientIterator' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php on line 17
+[20-Feb-2015 16:29:25 UTC] PHP Fatal error:  Interface 'Swift_Mailer_RecipientIterator' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php on line 17

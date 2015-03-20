@@ -1,0 +1,2 @@
+[20-Feb-2015 16:33:13 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/HeaderEncoder/Base64HeaderEncoderAcceptanceTest.php on line 4
+[20-Feb-2015 16:33:14 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/HeaderEncoder/Base64HeaderEncoderAcceptanceTest.php on line 4

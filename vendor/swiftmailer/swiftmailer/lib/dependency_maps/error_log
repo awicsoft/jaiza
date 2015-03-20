@@ -1,0 +1,4 @@
+[24-Jan-2015 09:37:40 UTC] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/dependency_maps/message_deps.php on line 3
+[25-Jan-2015 04:15:52 UTC] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php on line 5
+[26-Jan-2015 02:59:46 UTC] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php on line 3
+[31-Jan-2015 00:14:36 UTC] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php on line 3

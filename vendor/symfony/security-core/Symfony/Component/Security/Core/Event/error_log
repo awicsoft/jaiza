@@ -1,0 +1,2 @@
+[03-Feb-2015 01:52:44 UTC] PHP Fatal error:  Class 'Symfony\Component\Security\Core\Event\AuthenticationEvent' not found in /home/efuncore/public_html/atms/vendor/symfony/security-core/Symfony/Component/Security/Core/Event/AuthenticationFailureEvent.php on line 23
+[03-Feb-2015 01:52:45 UTC] PHP Fatal error:  Class 'Symfony\Component\EventDispatcher\Event' not found in /home/efuncore/public_html/atms/vendor/symfony/security-core/Symfony/Component/Security/Core/Event/AuthenticationEvent.php on line 23

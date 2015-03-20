@@ -1,0 +1,4 @@
+[20-Feb-2015 16:32:55 UTC] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home/efuncore/public_html/atms/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 10
+[20-Feb-2015 16:32:55 UTC] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home/efuncore/public_html/atms/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 9
+[20-Feb-2015 16:32:56 UTC] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home/efuncore/public_html/atms/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 10
+[20-Feb-2015 16:32:56 UTC] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home/efuncore/public_html/atms/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 9

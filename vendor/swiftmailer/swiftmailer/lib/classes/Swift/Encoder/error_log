@@ -1,0 +1,6 @@
+[20-Feb-2015 16:29:15 UTC] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php on line 17
+[20-Feb-2015 16:29:15 UTC] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php on line 17
+[20-Feb-2015 16:29:16 UTC] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php on line 17
+[20-Feb-2015 16:29:16 UTC] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php on line 19
+[20-Feb-2015 16:29:16 UTC] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php on line 17
+[20-Feb-2015 16:29:16 UTC] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php on line 19

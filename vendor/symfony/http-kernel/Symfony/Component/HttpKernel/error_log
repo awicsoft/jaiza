@@ -1,0 +1,5 @@
+[27-Dec-2014 07:57:09 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\KernelInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Kernel.php on line 45
+[15-Feb-2015 17:23:51 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php on line 36
+[26-Feb-2015 22:08:17 UTC] PHP Fatal error:  Class 'Symfony\Component\BrowserKit\Client' not found in /home/efuncore/public_html/atms/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Client.php on line 32
+[02-Mar-2015 11:47:19 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/KernelInterface.php on line 27
+[06-Mar-2015 22:39:47 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\KernelInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Kernel.php on line 45

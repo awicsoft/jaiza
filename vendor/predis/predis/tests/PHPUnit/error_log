@@ -1,0 +1,7 @@
+[24-Jan-2015 13:25:02 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/PHPUnit/PredisCommandTestCase.php on line 21
+[26-Jan-2015 11:50:17 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/PHPUnit/PredisConnectionTestCase.php on line 21
+[26-Jan-2015 21:55:29 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_Constraint' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/PHPUnit/RedisCommandConstraint.php on line 18
+[31-Jan-2015 09:25:03 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/PHPUnit/PredisTestCase.php on line 22
+[31-Jan-2015 14:28:13 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_Constraint' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/PHPUnit/ArrayHasSameValuesConstraint.php on line 16
+[01-Feb-2015 23:18:44 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/PHPUnit/PredisDistributorTestCase.php on line 20
+[04-Feb-2015 01:13:10 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/PHPUnit/PredisProfileTestCase.php on line 20

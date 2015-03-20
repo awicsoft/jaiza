@@ -1,0 +1,5 @@
+[27-Dec-2014 08:02:20 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Adapter\AbstractAdapter' not found in /home/efuncore/public_html/atms/vendor/symfony/finder/Symfony/Component/Finder/Adapter/AbstractFindAdapter.php on line 28
+[27-Dec-2014 08:02:21 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Adapter\AbstractFindAdapter' not found in /home/efuncore/public_html/atms/vendor/symfony/finder/Symfony/Component/Finder/Adapter/BsdFindAdapter.php on line 25
+[27-Dec-2014 08:03:42 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Adapter\AbstractFindAdapter' not found in /home/efuncore/public_html/atms/vendor/symfony/finder/Symfony/Component/Finder/Adapter/GnuFindAdapter.php on line 25
+[27-Dec-2014 08:03:47 UTC] PHP Fatal error:  Interface 'Symfony\Component\Finder\Adapter\AdapterInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/finder/Symfony/Component/Finder/Adapter/AbstractAdapter.php on line 20
+[27-Dec-2014 08:04:06 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Adapter\AbstractAdapter' not found in /home/efuncore/public_html/atms/vendor/symfony/finder/Symfony/Component/Finder/Adapter/PhpAdapter.php on line 22

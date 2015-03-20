@@ -1,0 +1,4 @@
+[20-Feb-2015 16:33:21 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/Reporters/HitReporterTest.php on line 4
+[20-Feb-2015 16:33:22 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/Reporters/HitReporterTest.php on line 4
+[20-Feb-2015 16:33:22 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/Reporters/HtmlReporterTest.php on line 4
+[20-Feb-2015 16:33:23 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/Reporters/HtmlReporterTest.php on line 4

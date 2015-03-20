@@ -1,0 +1,2 @@
+[27-Dec-2014 08:02:42 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Auth/Reminders/ReminderServiceProvider.php on line 9
+[27-Dec-2014 08:04:02 UTC] PHP Fatal error:  Interface 'Illuminate\Auth\Reminders\ReminderRepositoryInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Auth/Reminders/DatabaseReminderRepository.php on line 6

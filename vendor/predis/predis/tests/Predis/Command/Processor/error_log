@@ -1,0 +1,2 @@
+[27-Dec-2014 08:11:44 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Command/Processor/KeyPrefixProcessorTest.php on line 20
+[27-Dec-2014 21:10:59 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Command/Processor/ProcessorChainTest.php on line 20

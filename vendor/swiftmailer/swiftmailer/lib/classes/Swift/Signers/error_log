@@ -1,0 +1,6 @@
+[27-Dec-2014 08:02:24 UTC] PHP Fatal error:  Interface 'Swift_Signer' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php on line 17
+[27-Dec-2014 08:02:36 UTC] PHP Fatal error:  Class 'Swift_Signers_DKIMSigner' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php on line 18
+[27-Dec-2014 08:03:01 UTC] PHP Fatal error:  Interface 'Swift_Signers_BodySigner' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php on line 19
+[27-Dec-2014 08:03:02 UTC] PHP Fatal error:  Interface 'Swift_Signers_HeaderSigner' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php on line 17
+[27-Dec-2014 08:03:30 UTC] PHP Fatal error:  Interface 'Swift_Signers_HeaderSigner' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php on line 17
+[27-Dec-2014 08:03:53 UTC] PHP Fatal error:  Interface 'Swift_Signer' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php on line 16

@@ -1,0 +1,6 @@
+[20-Feb-2015 16:26:53 UTC] PHP Fatal error:  Class 'Illuminate\Support\Collection' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php on line 5
+[20-Feb-2015 16:26:53 UTC] PHP Fatal error:  Interface 'Illuminate\Support\Contracts\ArrayableInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 25
+[20-Feb-2015 16:26:53 UTC] PHP Fatal error:  Class 'Illuminate\Support\Collection' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php on line 5
+[20-Feb-2015 16:26:53 UTC] PHP Fatal error:  Interface 'Illuminate\Support\Contracts\ArrayableInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 25
+[20-Feb-2015 16:26:54 UTC] PHP Fatal error:  Interface 'Illuminate\Database\Eloquent\ScopeInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Database/Eloquent/SoftDeletingScope.php on line 3
+[20-Feb-2015 16:26:54 UTC] PHP Fatal error:  Interface 'Illuminate\Database\Eloquent\ScopeInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Database/Eloquent/SoftDeletingScope.php on line 3

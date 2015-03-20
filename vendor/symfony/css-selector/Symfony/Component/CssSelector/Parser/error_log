@@ -1,0 +1,1 @@
+[27-Dec-2014 08:02:22 UTC] PHP Fatal error:  Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/css-selector/Symfony/Component/CssSelector/Parser/Parser.php on line 27

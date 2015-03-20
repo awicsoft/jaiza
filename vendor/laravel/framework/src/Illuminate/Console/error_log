@@ -1,0 +1,2 @@
+[19-Feb-2015 19:07:06 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Application' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 9
+[22-Feb-2015 17:25:59 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 12

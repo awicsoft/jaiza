@@ -1,0 +1,2 @@
+[03-Feb-2015 01:53:46 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\RequestContextAwareInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGeneratorInterface.php on line 35
+[03-Feb-2015 01:53:46 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\Generator\UrlGeneratorInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php on line 30

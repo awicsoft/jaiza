@@ -1,0 +1,2 @@
+[20-Feb-2015 16:27:39 UTC] PHP Fatal error:  Class 'Illuminate\View\Compilers\Compiler' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 5
+[20-Feb-2015 16:27:39 UTC] PHP Fatal error:  Class 'Illuminate\View\Compilers\Compiler' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 5

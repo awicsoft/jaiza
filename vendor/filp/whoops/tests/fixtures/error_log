@@ -1,0 +1,1 @@
+[25-Jan-2015 16:53:27 UTC] PHP Fatal error:  Call to a member function slug() on a non-object in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/fixtures/template.php on line 1

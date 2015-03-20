@@ -1,0 +1,2 @@
+[27-Dec-2014 08:09:07 UTC] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php on line 17
+[27-Dec-2014 08:10:33 UTC] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php on line 17

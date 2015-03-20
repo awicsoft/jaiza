@@ -1,0 +1,2 @@
+[20-Feb-2015 16:31:09 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\File' not found in /home/efuncore/public_html/atms/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php on line 28
+[20-Feb-2015 16:31:10 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\File' not found in /home/efuncore/public_html/atms/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php on line 28

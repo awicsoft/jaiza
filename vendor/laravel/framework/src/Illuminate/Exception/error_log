@@ -1,0 +1,4 @@
+[11-Feb-2015 20:14:09 UTC] PHP Fatal error:  Interface 'Illuminate\Exception\ExceptionDisplayerInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Exception/SymfonyDisplayer.php on line 7
+[19-Feb-2015 00:11:19 UTC] PHP Fatal error:  Interface 'Illuminate\Exception\ExceptionDisplayerInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Exception/PlainDisplayer.php on line 7
+[20-Feb-2015 20:33:00 UTC] PHP Fatal error:  Interface 'Illuminate\Exception\ExceptionDisplayerInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Exception/WhoopsDisplayer.php on line 8
+[26-Feb-2015 00:54:43 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Exception/ExceptionServiceProvider.php on line 8

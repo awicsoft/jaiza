@@ -1,0 +1,1 @@
+[03-Feb-2015 01:51:37 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Extractor\ExtractorInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/translation/Symfony/Component/Translation/Extractor/ChainExtractor.php on line 22

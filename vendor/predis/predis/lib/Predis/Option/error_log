@@ -1,0 +1,9 @@
+[27-Dec-2014 07:58:44 UTC] PHP Fatal error:  Class 'Predis\Option\AbstractOption' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Option/ClientConnectionFactory.php on line 23
+[08-Feb-2015 23:40:53 UTC] PHP Fatal error:  Class 'Predis\Option\AbstractOption' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Option/ClientProfile.php on line 23
+[13-Feb-2015 02:33:07 UTC] PHP Fatal error:  Interface 'Predis\Option\OptionInterface' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Option/CustomOption.php on line 20
+[14-Feb-2015 04:45:57 UTC] PHP Fatal error:  Interface 'Predis\Option\ClientOptionsInterface' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Option/ClientOptions.php on line 20
+[19-Feb-2015 00:10:25 UTC] PHP Fatal error:  Class 'Predis\Option\AbstractOption' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Option/ClientCluster.php on line 24
+[27-Feb-2015 00:54:47 UTC] PHP Fatal error:  Class 'Predis\Option\AbstractOption' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Option/ClientReplication.php on line 23
+[27-Feb-2015 13:29:23 UTC] PHP Fatal error:  Class 'Predis\Option\AbstractOption' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Option/ClientPrefix.php on line 22
+[05-Mar-2015 00:49:49 UTC] PHP Fatal error:  Class 'Predis\Option\AbstractOption' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Option/ClientExceptions.php on line 20
+[05-Mar-2015 05:52:58 UTC] PHP Fatal error:  Interface 'Predis\Option\OptionInterface' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Option/AbstractOption.php on line 20

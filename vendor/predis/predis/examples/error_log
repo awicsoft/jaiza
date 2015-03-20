@@ -1,0 +1,119 @@
+[15-Jan-2015 05:52:01 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Jan-2015 17:14:08 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Jan-2015 01:56:24 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/examples/SimpleDebuggableC in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Jan-2015 22:14:56 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Jan-2015 22:17:10 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Jan-2015 22:17:10 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[17-Jan-2015 02:26:57 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[17-Jan-2015 10:01:40 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[18-Jan-2015 16:20:55 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[18-Jan-2015 20:07:59 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[19-Jan-2015 02:27:00 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[19-Jan-2015 22:20:56 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[21-Jan-2015 03:22:16 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[21-Jan-2015 08:25:25 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[21-Jan-2015 10:57:00 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[22-Jan-2015 19:28:35 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[23-Jan-2015 04:19:07 UTC] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/Abst in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141

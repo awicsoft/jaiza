@@ -1,0 +1,5 @@
+[27-Dec-2014 07:58:30 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php on line 5
+[27-Dec-2014 08:00:17 UTC] PHP Fatal error:  Interface 'Illuminate\Auth\UserProviderInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Auth/DatabaseUserProvider.php on line 6
+[11-Feb-2015 00:07:20 UTC] PHP Fatal error:  Interface 'Illuminate\Auth\UserProviderInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php on line 5
+[16-Feb-2015 09:49:07 UTC] PHP Fatal error:  Interface 'Illuminate\Auth\UserInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Auth/GenericUser.php on line 3
+[01-Mar-2015 18:06:16 UTC] PHP Fatal error:  Class 'Illuminate\Support\Manager' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php on line 5

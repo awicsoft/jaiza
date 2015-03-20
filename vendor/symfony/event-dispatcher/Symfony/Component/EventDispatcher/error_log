@@ -1,0 +1,2 @@
+[10-Feb-2015 11:29:26 UTC] PHP Fatal error:  Interface 'Symfony\Component\EventDispatcher\EventDispatcherInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/ImmutableEventDispatcher.php on line 20
+[06-Mar-2015 22:34:31 UTC] PHP Fatal error:  Class 'Symfony\Component\EventDispatcher\EventDispatcher' not found in /home/efuncore/public_html/atms/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/ContainerAwareEventDispatcher.php on line 25

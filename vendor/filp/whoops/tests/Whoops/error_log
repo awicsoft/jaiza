@@ -1,0 +1,2 @@
+[27-Jan-2015 21:32:37 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/TestCase.php on line 11
+[06-Feb-2015 18:54:12 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/RunTest.php on line 18

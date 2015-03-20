@@ -1,0 +1,2 @@
+[20-Feb-2015 16:30:25 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/efuncore/public_html/atms/vendor/symfony/console/Symfony/Component/Console/Logger/ConsoleLogger.php on line 27
+[20-Feb-2015 16:30:26 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/efuncore/public_html/atms/vendor/symfony/console/Symfony/Component/Console/Logger/ConsoleLogger.php on line 27

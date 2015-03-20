@@ -1,0 +1,10 @@
+[27-Dec-2014 07:57:46 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerProfileTest.php on line 21
+[27-Dec-2014 08:01:14 UTC] PHP Fatal error:  Class 'Predis\Profile\PredisProfileTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerVersion26Test.php on line 18
+[08-Feb-2015 12:52:56 UTC] PHP Fatal error:  Class 'Predis\Profile\PredisProfileTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerVersion22Test.php on line 18
+[11-Feb-2015 15:16:49 UTC] PHP Fatal error:  Class 'Predis\Profile\PredisProfileTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerVersion24Test.php on line 18
+[12-Feb-2015 07:36:15 UTC] PHP Fatal error:  Class 'Predis\Profile\PredisProfileTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerVersion12Test.php on line 18
+[14-Feb-2015 06:01:45 UTC] PHP Fatal error:  Class 'Predis\Profile\PredisProfileTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerVersion28Test.php on line 18
+[14-Feb-2015 18:39:38 UTC] PHP Fatal error:  Class 'Predis\Profile\PredisProfileTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerVersion20Test.php on line 18
+[25-Feb-2015 17:19:59 UTC] PHP Fatal error:  Class 'Predis\Profile\PredisProfileTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerVersion30Test.php on line 18
+[26-Feb-2015 21:07:53 UTC] PHP Fatal error:  Class 'Predis\Profile\PredisProfileTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerVersionNextTest.php on line 18
+[08-Mar-2015 07:33:58 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Profile/ServerProfileTest.php on line 21

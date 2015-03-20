@@ -1,0 +1,2 @@
+[18-Feb-2015 14:52:18 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/stack/builder/tests/unit/Stack/BuilderTest.php on line 12
+[19-Feb-2015 00:46:05 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/stack/builder/tests/unit/Stack/StackedHttpKernelTest.php on line 11

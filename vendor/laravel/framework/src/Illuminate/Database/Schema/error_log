@@ -1,0 +1,2 @@
+[20-Feb-2015 16:26:57 UTC] PHP Fatal error:  Class 'Illuminate\Database\Schema\Builder' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php on line 3
+[20-Feb-2015 16:26:57 UTC] PHP Fatal error:  Class 'Illuminate\Database\Schema\Builder' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php on line 3

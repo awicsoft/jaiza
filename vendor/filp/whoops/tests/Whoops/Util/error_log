@@ -1,0 +1,2 @@
+[08-Feb-2015 04:13:56 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Util/TemplateHelperTest.php on line 12
+[16-Feb-2015 16:08:04 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Util/MiscTest.php on line 12

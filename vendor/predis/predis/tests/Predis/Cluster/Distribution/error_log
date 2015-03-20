@@ -1,0 +1,6 @@
+[20-Feb-2015 16:29:05 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Cluster/Distribution/EmptyRingExceptionTest.php on line 20
+[20-Feb-2015 16:29:05 UTC] PHP Fatal error:  Class 'Predis\Cluster\Distribution\PredisDistributorTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Cluster/Distribution/HashRingTest.php on line 18
+[20-Feb-2015 16:29:05 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Cluster/Distribution/EmptyRingExceptionTest.php on line 20
+[20-Feb-2015 16:29:06 UTC] PHP Fatal error:  Class 'Predis\Cluster\Distribution\PredisDistributorTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Cluster/Distribution/HashRingTest.php on line 18
+[20-Feb-2015 16:29:06 UTC] PHP Fatal error:  Class 'Predis\Cluster\Distribution\PredisDistributorTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Cluster/Distribution/KetamaPureRingTest.php on line 18
+[20-Feb-2015 16:29:06 UTC] PHP Fatal error:  Class 'Predis\Cluster\Distribution\PredisDistributorTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Cluster/Distribution/KetamaPureRingTest.php on line 18

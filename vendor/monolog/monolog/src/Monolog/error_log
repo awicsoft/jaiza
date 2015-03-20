@@ -1,0 +1,1 @@
+[28-Jan-2015 23:17:46 UTC] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/efuncore/public_html/atms/vendor/monolog/monolog/src/Monolog/Logger.php on line 28

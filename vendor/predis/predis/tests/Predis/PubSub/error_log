@@ -1,0 +1,2 @@
+[09-Feb-2015 02:08:44 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/PubSub/PubSubContextTest.php on line 22
+[03-Mar-2015 23:34:01 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/PubSub/DispatcherLoopTest.php on line 21

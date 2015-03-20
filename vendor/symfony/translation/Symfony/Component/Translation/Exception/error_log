@@ -1,0 +1,2 @@
+[03-Feb-2015 01:51:38 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Exception\ExceptionInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/translation/Symfony/Component/Translation/Exception/NotFoundResourceException.php on line 22
+[03-Feb-2015 01:51:39 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Exception\ExceptionInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/translation/Symfony/Component/Translation/Exception/InvalidResourceException.php on line 22

@@ -1,0 +1,2 @@
+[26-Jan-2015 15:37:40 UTC] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/efuncore/public_html/atms/vendor/psr/log/Psr/Log/AbstractLogger.php on line 13
+[27-Jan-2015 00:12:48 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/efuncore/public_html/atms/vendor/psr/log/Psr/Log/NullLogger.php on line 14

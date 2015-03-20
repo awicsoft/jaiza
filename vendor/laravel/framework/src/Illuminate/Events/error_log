@@ -1,0 +1,1 @@
+[15-Feb-2015 09:49:07 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Events/EventServiceProvider.php on line 5

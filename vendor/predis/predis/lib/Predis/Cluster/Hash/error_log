@@ -1,0 +1,1 @@
+[27-Dec-2014 08:03:58 UTC] PHP Fatal error:  Interface 'Predis\Cluster\Hash\HashGeneratorInterface' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Cluster/Hash/CRC16HashGenerator.php on line 20

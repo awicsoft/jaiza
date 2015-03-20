@@ -1,0 +1,2 @@
+[11-Feb-2015 11:29:26 UTC] PHP Fatal error:  Interface 'Illuminate\Validation\PresenceVerifierInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Validation/DatabasePresenceVerifier.php on line 5
+[19-Feb-2015 00:12:22 UTC] PHP Fatal error:  Interface 'Illuminate\Support\Contracts\MessageProviderInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Validation/Validator.php on line 14

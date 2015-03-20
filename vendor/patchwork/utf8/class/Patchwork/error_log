@@ -1,0 +1,1 @@
+[29-Jan-2015 23:17:46 UTC] PHP Fatal error:  Class 'Patchwork\Utf8' not found in /home/efuncore/public_html/atms/vendor/patchwork/utf8/class/Patchwork/TurkishUtf8.php on line 17

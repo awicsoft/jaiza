@@ -1,0 +1,3 @@
+[27-Dec-2014 08:02:17 UTC] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php on line 17
+[27-Dec-2014 08:04:00 UTC] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php on line 18
+[27-Dec-2014 08:04:12 UTC] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php on line 18

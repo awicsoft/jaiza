@@ -1,0 +1,2 @@
+[20-Feb-2015 16:30:30 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/symfony/console/Symfony/Component/Console/Tests/ApplicationTest.php on line 34
+[20-Feb-2015 16:30:30 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/symfony/console/Symfony/Component/Console/Tests/ApplicationTest.php on line 34

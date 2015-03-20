@@ -1,0 +1,2 @@
+[20-Feb-2015 16:31:20 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/CacheClearer/ChainCacheClearer.php on line 20
+[20-Feb-2015 16:31:20 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/CacheClearer/ChainCacheClearer.php on line 20

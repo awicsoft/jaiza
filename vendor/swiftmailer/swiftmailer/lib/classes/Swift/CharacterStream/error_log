@@ -1,0 +1,4 @@
+[20-Feb-2015 16:29:14 UTC] PHP Fatal error:  Interface 'Swift_CharacterStream' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php on line 18
+[20-Feb-2015 16:29:14 UTC] PHP Fatal error:  Interface 'Swift_CharacterStream' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php on line 17
+[20-Feb-2015 16:29:15 UTC] PHP Fatal error:  Interface 'Swift_CharacterStream' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php on line 17
+[20-Feb-2015 16:29:15 UTC] PHP Fatal error:  Interface 'Swift_CharacterStream' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php on line 18

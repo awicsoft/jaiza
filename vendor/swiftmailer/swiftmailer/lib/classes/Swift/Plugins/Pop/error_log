@@ -1,0 +1,1 @@
+[27-Dec-2014 08:09:47 UTC] PHP Fatal error:  Class 'Swift_IoException' not found in /home/efuncore/public_html/atms/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php on line 17

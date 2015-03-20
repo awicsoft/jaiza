@@ -1,0 +1,1 @@
+[03-Feb-2015 01:51:55 UTC] PHP Fatal error:  Interface 'Symfony\Component\Security\Core\Util\SecureRandomInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/security-core/Symfony/Component/Security/Core/Util/SecureRandom.php on line 23

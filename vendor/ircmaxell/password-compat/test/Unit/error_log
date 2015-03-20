@@ -1,0 +1,4 @@
+[27-Jan-2015 01:28:40 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/ircmaxell/password-compat/test/Unit/PasswordNeedsRehashTest.php on line 3
+[27-Jan-2015 22:12:53 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/ircmaxell/password-compat/test/Unit/PasswordHashTest.php on line 3
+[02-Feb-2015 00:34:32 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/ircmaxell/password-compat/test/Unit/PasswordVerifyTest.php on line 3
+[05-Feb-2015 01:13:09 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/ircmaxell/password-compat/test/Unit/PasswordGetInfoTest.php on line 3

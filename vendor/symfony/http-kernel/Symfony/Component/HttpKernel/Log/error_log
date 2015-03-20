@@ -1,0 +1,2 @@
+[27-Dec-2014 08:02:15 UTC] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/efuncore/public_html/atms/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Log/LoggerInterface.php on line 25
+[27-Dec-2014 08:03:36 UTC] PHP Fatal error:  Class 'Psr\Log\NullLogger' not found in /home/efuncore/public_html/atms/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Log/NullLogger.php on line 23

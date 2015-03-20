@@ -1,0 +1,5 @@
+[27-Dec-2014 08:00:05 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Handler/SoapResponseHandlerTest.php on line 12
+[07-Feb-2015 20:49:00 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Handler/PlainTextHandlerTest.php on line 14
+[24-Feb-2015 01:09:59 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Handler/PrettyPageHandlerTest.php on line 14
+[25-Feb-2015 19:51:33 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Handler/JsonResponseHandlerTest.php on line 13
+[01-Mar-2015 23:09:25 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Handler/XmlResponseHandlerTest.php on line 12

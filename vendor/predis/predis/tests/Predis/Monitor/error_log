@@ -1,0 +1,1 @@
+[09-Feb-2015 17:18:12 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Monitor/MonitorContextTest.php on line 22

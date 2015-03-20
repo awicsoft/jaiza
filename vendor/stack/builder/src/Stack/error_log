@@ -1,0 +1,1 @@
+[30-Jan-2015 04:20:55 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/efuncore/public_html/atms/vendor/stack/builder/src/Stack/StackedHttpKernel.php on line 10

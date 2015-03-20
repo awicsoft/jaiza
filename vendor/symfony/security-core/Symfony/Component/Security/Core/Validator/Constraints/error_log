@@ -1,0 +1,2 @@
+[03-Feb-2015 01:51:52 UTC] PHP Fatal error:  Class 'Symfony\Component\Validator\ConstraintValidator' not found in /home/efuncore/public_html/atms/vendor/symfony/security-core/Symfony/Component/Security/Core/Validator/Constraints/UserPasswordValidator.php on line 23
+[03-Feb-2015 01:51:53 UTC] PHP Fatal error:  Class 'Symfony\Component\Validator\Constraint' not found in /home/efuncore/public_html/atms/vendor/symfony/security-core/Symfony/Component/Security/Core/Validator/Constraints/UserPassword.php on line 21

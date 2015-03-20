@@ -1,0 +1,10 @@
+[27-Dec-2014 07:57:50 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/ClientExceptionsTest.php on line 20
+[27-Dec-2014 07:59:22 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/ClientPrefixTest.php on line 20
+[27-Dec-2014 08:00:13 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/ClientOptionsTest.php on line 21
+[27-Dec-2014 08:01:00 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/ClientReplicationTest.php on line 20
+[27-Dec-2014 08:01:13 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/ClientConnectionFactoryTest.php on line 21
+[27-Dec-2014 08:01:17 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/ClientClusterTest.php on line 20
+[25-Feb-2015 12:16:49 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/CustomOptionTest.php on line 20
+[26-Feb-2015 18:36:03 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/AbstractOptionTest.php on line 20
+[28-Feb-2015 12:06:16 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/ClientProfileTest.php on line 22
+[08-Mar-2015 10:05:51 UTC] PHP Fatal error:  Class 'PredisTestCase' not found in /home/efuncore/public_html/atms/vendor/predis/predis/tests/Predis/Option/ClientExceptionsTest.php on line 20

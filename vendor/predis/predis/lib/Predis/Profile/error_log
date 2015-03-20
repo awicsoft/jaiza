@@ -1,0 +1,9 @@
+[27-Dec-2014 07:58:35 UTC] PHP Fatal error:  Interface 'Predis\Profile\ServerProfileInterface' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Profile/ServerProfile.php on line 23
+[27-Dec-2014 07:59:02 UTC] PHP Fatal error:  Class 'Predis\Profile\ServerProfile' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Profile/ServerVersion30.php on line 20
+[27-Dec-2014 08:01:18 UTC] PHP Fatal error:  Class 'Predis\Profile\ServerVersion30' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Profile/ServerVersionNext.php on line 20
+[09-Feb-2015 23:46:38 UTC] PHP Fatal error:  Class 'Predis\Profile\ServerProfile' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Profile/ServerVersion24.php on line 20
+[10-Feb-2015 00:07:20 UTC] PHP Fatal error:  Class 'Predis\Profile\ServerProfile' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Profile/ServerVersion28.php on line 20
+[23-Feb-2015 12:22:49 UTC] PHP Fatal error:  Class 'Predis\Profile\ServerProfile' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Profile/ServerVersion22.php on line 20
+[03-Mar-2015 19:46:39 UTC] PHP Fatal error:  Class 'Predis\Profile\ServerProfile' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Profile/ServerVersion12.php on line 20
+[04-Mar-2015 09:40:20 UTC] PHP Fatal error:  Class 'Predis\Profile\ServerProfile' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Profile/ServerVersion20.php on line 20
+[05-Mar-2015 15:59:17 UTC] PHP Fatal error:  Class 'Predis\Profile\ServerProfile' not found in /home/efuncore/public_html/atms/vendor/predis/predis/lib/Predis/Profile/ServerVersion26.php on line 20

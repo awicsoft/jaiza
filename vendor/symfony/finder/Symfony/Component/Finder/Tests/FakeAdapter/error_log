@@ -1,0 +1,4 @@
+[27-Dec-2014 08:07:15 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Adapter\AbstractAdapter' not found in /home/efuncore/public_html/atms/vendor/symfony/finder/Symfony/Component/Finder/Tests/FakeAdapter/DummyAdapter.php on line 20
+[27-Dec-2014 08:07:21 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Adapter\AbstractAdapter' not found in /home/efuncore/public_html/atms/vendor/symfony/finder/Symfony/Component/Finder/Tests/FakeAdapter/NamedAdapter.php on line 20
+[27-Dec-2014 08:07:21 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Adapter\AbstractAdapter' not found in /home/efuncore/public_html/atms/vendor/symfony/finder/Symfony/Component/Finder/Tests/FakeAdapter/FailingAdapter.php on line 21
+[27-Dec-2014 08:08:56 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Adapter\AbstractAdapter' not found in /home/efuncore/public_html/atms/vendor/symfony/finder/Symfony/Component/Finder/Tests/FakeAdapter/UnsupportedAdapter.php on line 20

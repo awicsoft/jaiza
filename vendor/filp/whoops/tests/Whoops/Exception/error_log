@@ -1,0 +1,5 @@
+[26-Dec-2014 21:26:10 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Exception/InspectorTest.php on line 13
+[27-Dec-2014 07:59:53 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Exception/FrameTest.php on line 13
+[27-Dec-2014 08:00:36 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Exception/FrameCollectionTest.php on line 13
+[01-Mar-2015 21:53:38 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Exception/FormatterTest.php on line 11
+[06-Mar-2015 19:46:39 UTC] PHP Fatal error:  Class 'Whoops\TestCase' not found in /home/efuncore/public_html/atms/vendor/filp/whoops/tests/Whoops/Exception/InspectorTest.php on line 13

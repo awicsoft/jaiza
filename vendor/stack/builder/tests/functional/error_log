@@ -1,0 +1,1 @@
+[27-Jan-2015 14:06:29 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/efuncore/public_html/atms/vendor/stack/builder/tests/functional/SilexApplicationTest.php on line 11

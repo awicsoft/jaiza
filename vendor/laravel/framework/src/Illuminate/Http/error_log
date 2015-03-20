@@ -1,0 +1,6 @@
+[26-Dec-2014 21:22:57 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\Request' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Http/Request.php on line 7
+[27-Dec-2014 08:01:09 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\Response' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Http/Response.php on line 7
+[27-Dec-2014 08:01:32 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\RedirectResponse' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php on line 9
+[15-Feb-2015 08:33:19 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php on line 6
+[17-Feb-2015 13:37:33 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\JsonResponse' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php on line 5
+[05-Mar-2015 10:56:08 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\Request' not found in /home/efuncore/public_html/atms/vendor/laravel/framework/src/Illuminate/Http/Request.php on line 7
