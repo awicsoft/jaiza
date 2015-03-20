@@ -125,10 +125,7 @@ function report(){
                                             <button onclick="report()">رپورٹ حاصل</button>
                                           </div>    
                                         </div>
-<div class="form-actions">
-                                        
-    <button id="btn1" onclick="adddReport()" class="btn btn-primary">رپورٹ شامل کریں</button>
-                                        </div>     
+
 </div>
                            
                                  
