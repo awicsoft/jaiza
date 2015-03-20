@@ -1,4 +1,4 @@
-﻿@extends('usermain')
+﻿@extends    ('usermain')
 
 @section('pageName')
 
@@ -9,14 +9,20 @@
 <script>
     
 
+    function adddReport(){
+       
+       addAll();
+        
+
+    }
 $(document).ready(function(){
+    
 updateTable('{{Input::get('date')}}');
 //loadAll();
     $("#btn1").click(function(){
        
-   //       alert("ss");     
-       
-       addAll();
+        adddReport()    
+      
         
 
        
@@ -121,7 +127,7 @@ function report(){
                                         </div>
 <div class="form-actions">
                                         
-                                          <button id="btn1" class="btn btn-primary">رپورٹ شامل کریں</button>
+    <button id="btn1" onclick="adddReport()" class="btn btn-primary">رپورٹ شامل کریں</button>
                                         </div>     
 </div>
                            

@@ -44,3 +44,9 @@
     @endforeach
     
 </table>
+
+  </div>
+<div class="form-actions">
+                                        
+    <button id="btn1" onclick="adddReport();"class="btn btn-primary">رپورٹ شامل کریں</button>
+  </div>    
