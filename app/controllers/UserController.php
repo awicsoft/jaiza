@@ -93,33 +93,11 @@ class UserController extends BaseController{
 
 
 		function  isLogged(){
-
-		if(!Session::has('user') )
-			return 0;
-
-		$u  = Session::get('user');
-		//echo "$u->username";
-		//echo "$u->password";
-		if($u == NULL)
-			return 0;	
-		$user = array(
-        'username' => $u->username,
-        'password' => $u->password
-
- 		  );
-
-		if (Auth::attempt($user)){
-				
-				if(Auth::check()){
-					$user = User::whereUsername($u->username)->first();
-					$user->password =  $u->password;
-					return $user;
-
-				}
-			}
-		
-		return 0;
-
+                        if(Auth::check()){
+                            return Auth::user();
+                            
+                        }
+                        return null;
 	}
 function isUsernameAlreadyExits($username){
 		$user = User::whereUsername($username)->first();
@@ -221,41 +199,29 @@ function logout(){
 	}
 
 	function login(){
-		$username = Input::get('username');
-		$password = Input::get('password');
-		
-		$user = array(
-        'username' => Input::get('username'),
-        'password' => Input::get('password')
+	
+		$userdata = array(
+				'username' 	=> Input::get('username'),
+				'password' 	=> Input::get('password')
+			);
 
- 		  );   
+			// attempt to do the login
+			if (Auth::attempt($userdata)) {
 
+				// validation successful!
+				// redirect them to the secure section or whatever
+				// return Redirect::to('secure');
+				// for now we'll just echo success (even though echoing in a controller is bad)
+				return Redirect::to('user');
 
+			} else {
 
+				// validation not successful, send back to form
+				return  View::make('login',['message' => "WRONG DETAILS"]);
 
-		
-		
-		if (Auth::attempt($user,true)){
-				
-				if(Auth::check()){
-					$user = User::whereUsername($username)->first();
-					$user->password  = $password;
-					Session::put('user', $user);
-			
-					
-					  return Redirect::intended('user');
-
-				}
-
-
-			//	Auth::user()->login();
-			//	 Auth::user()->lastLogin = Carbon::now();
-			//	  Auth::user()->save();
-				//return $email = Auth::user()->email;
-			 
 			}
 
-			 return  View::make('login',['message' => "WRONG DETAILS"]);
+			 
 			
 
 	}
