@@ -61,15 +61,15 @@ Route::get('/GenerateReport','GenerateReportController@gReportPage')->before('au
 Route::post('/GenerateReport','GenerateReportController@gReportPost')->before('auth');;
 
 //Report Route
-Route::get('/reportTable','ReportController@reportTable');
+Route::get('/reportTable','ReportController@reportTable')->before('auth');
 
-Route::get('/Report','ReportController@reportPage');
-Route::post('/Report','ReportController@reportPagePost');
-Route::post('/updateReport','ReportController@updateReport');
-Route::post('/deleteReport','ReportController@deleteReport');
+Route::get('/Report','ReportController@reportPage')->before('auth');
+Route::post('/Report','ReportController@reportPagePost')->before('auth');
+Route::post('/updateReport','ReportController@updateReport')->before('auth');
+Route::post('/deleteReport','ReportController@deleteReport')->before('auth');
 
-Route::get('/getCol','ReportController@getCol');
-Route::get('/getPg','ReportController@getPg');
+Route::get('/getCol','ReportController@getCol')->before('auth');
+Route::get('/getPg','ReportController@getPg')->before('auth');
 
 
 //PressRelease Route
@@ -82,7 +82,7 @@ Route::post('/deletePressRelease','PressReleaseController@deletePressRelease')->
 
 //Columns Route
 Route::get('upload', function() {
-  return View::make('columns1');
+  return View::make('columns1')->before('auth');;
 });
 
 Route::post('upload', 'ColumnsController@upload');
