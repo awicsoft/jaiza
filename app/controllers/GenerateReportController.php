@@ -24,6 +24,8 @@ class GenerateReportController extends BaseController {
             $user = $userController->isLogged();            
             $citys = City::all();
             $date1 = date('m/d/Y');
+            
+            
             return View::make('GR',['user' =>$user,'citys' =>$citys ,'date1' => $date1]);
                     
         }
@@ -32,16 +34,36 @@ class GenerateReportController extends BaseController {
             
             
         }
+        
         function gImportantNew(){
           $date = Input::get('date');
-            if($date=="")
+            
+          if($date=="")
                 $date = date('Y-m-d');
             else{
-            $date2 = DateTime::createFromFormat('m/d/Y', $date);
+                $date2 = DateTime::createFromFormat('m/d/Y', $date);
                 $date = $date2->format('Y-m-d');
             }
             
-            $importantNews = ImportantNews::where('date',$date)->get();
+            
+              if(Input::has('city')){
+                $ci = Input::get('city');
+                
+                 $importantNews = ColumnView::where('type','News')->where('date',$date)->where('newspaperCityID',$ci)->get();
+            
+                
+           }
+            else{
+            
+                $importantNews = ColumnView::where('type','News')->where('date',$date)->get();
+            
+                
+                  
+                
+            }
+            
+            
+            
             
             return View::make('importantNews',['importantNews' => $importantNews]);
             
@@ -55,8 +77,21 @@ class GenerateReportController extends BaseController {
             $date2 = DateTime::createFromFormat('m/d/Y', $date);
                 $date = $date2->format('Y-m-d');
             }
+              if(Input::has('city')){
+                $ci = Input::get('city');
+                
+             $idarias = ColumnView::where('type','Idaria')->where('date',$date)->where('newspaperCityID',$ci)->get();
+               
+           }
+            else{
             
-            $idarias = Idaria::where('date',$date)->get();
+             $idarias = ColumnView::where('type','Idaria')->where('date',$date)->get();
+           
+                
+                  
+                
+            }
+            
             
             return View::make('idaria',['idarias' => $idarias]);
             
@@ -69,8 +104,20 @@ class GenerateReportController extends BaseController {
             $date2 = DateTime::createFromFormat('m/d/Y', $date);
                 $date = $date2->format('Y-m-d');
             }
+              if(Input::has('city')){
+                $ci = Input::get('city');
+                
+             $columnvs = ColumnView::where('type','Column')->where('date',$date)->where('newspaperCityID',$ci)->get();
+               
+           }
+            else{
             
-            $columnvs = ColumnV::where('date',$date)->get();
+             $columnvs = ColumnView::where('type','Column')->where('date',$date)->get();
+           
+                
+                  
+                
+            }
             
             return View::make('columnv',['columnvs' => $columnvs]);
             

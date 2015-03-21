@@ -41,7 +41,7 @@ class ReportController extends BaseController {
             if(Input::has('city')){
                 $ci = Input::get('city');
                 
-                $newspapers = NewspaperView::where('ID',$ci)->get();
+                $newspapers = NewspaperView::where('cityID',$ci)->get();
             
                 
            }

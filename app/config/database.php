@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'jaiza2',
+			'database'  => 'jaiza',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',
