@@ -74,7 +74,14 @@ Route::get('/getPg','ReportController@getPg')->before('auth');
 
 //PressRelease Route
 Route::get('/pressReleaseTable','PressReleaseController@pressReleaseTable')->before('auth');;
-
+Route::get('/uploadFileButton',function(){
+    return View::make('uploadFileButton');
+    
+});
+Route::get('/empty',function(){
+    return View::make('empty');
+    
+});
 Route::get('/PressRelease','PressReleaseController@pReleasePage')->before('auth');;
 Route::post('/PressRelease','PressReleaseController@pReleasePagePost')->before('auth');;
 Route::post('/updatePressRelease','PressReleaseController@updatePressRelease')->before('auth');;

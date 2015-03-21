@@ -17,6 +17,26 @@ loadTable();
 
 
 });
+function makeSelectAction(){
+   var type =  $("#type").val();
+    if(type=='PIC'){
+        
+        loadUploadButton();
+    }
+    else{
+        emptyUploadButton();
+        
+    }
+    
+}
+function loadUploadButton(){
+    //alert("ss");
+     $("#uploadFileButton").load("uploadFileButton");
+}
+function emptyUploadButton(){
+   // alert("ss");
+     $("#uploadFileButton").load("empty");
+} 
 function loadTable(){
     
      $("#prTable").load("pressReleaseTable");
@@ -73,14 +93,21 @@ function   updateTagOptions(){
 قسم</label></td>
         
         <td>
-            <select id='type' name="type">
+            <select onchange= "makeSelectAction()" id='type' name="type">
                 <option>PR</option>
-                <option>PIC</option>
+                <option >PIC</option>
             </select>
                                         
         </td>
   
     </tr>
+
+    <tr id="uploadFileButton" >
+        
+    </tr>
+  
+    
+    
     <tr><td> <label class="control-label" for="focusedInput">
 رہنما</label></td>
         
