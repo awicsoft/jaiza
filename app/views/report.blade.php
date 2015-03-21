@@ -103,15 +103,15 @@ updateTable('{{Input::get('date')}}');
  
 function updateTable(date){
 
-     $("#reportTable").load("reportTable?date="+date);
+     $("#reportTable").load("reportTable?date="+date+"&add=2");
 
 }
 function report(){
 
          var date = $("#date01").val();
 //    updateTable(date);
-
-	window.open("Report?date="+date,'_self');
+        var city = $("#city01").val();
+	window.open("Report?date="+date+"&city="+city,'_self');
 	
 	
 }
@@ -119,9 +119,19 @@ function report(){
 <div style="width:80%; margin-left: auto; margin-right: auto;">
 
      <div class="control-group" >
+                                          
                                           <label class="control-label" for="date01">تاریخ ان پٹ</label>
+                                             <input name="date" type="text" class="input-xlarge datepicker" id="date01" value="{{$date1}}">
+                                             <label class="control-label" for="date01">شہر کا نام</label>
+                                             <select name='city' id='city01'>
+                                                 <option></option>
+                                                 @foreach($citys as $city)
+                                                 <option value="{{$city->city_ID}}">{{$city->name}}</option>
+                                                 @endforeach
+                                             </select>
+                                           
                                           <div class="controls">
-                                            <input name="date" type="text" class="input-xlarge datepicker" id="date01" value="{{$date1}}">
+                                            
                                             <button onclick="report()">رپورٹ حاصل</button>
                                           </div>    
                                         </div>

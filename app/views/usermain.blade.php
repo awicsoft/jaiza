@@ -1,11 +1,12 @@
 @extends('main')
 @section('header')
- <a class="brand" href="#">صارف پینل</a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav pull-right">
+<a class="brand" href="#" style="direction: rtl; float: right;">صارف پینل</a>
+                    <div class="nav-collapse collapse" >
+                        <ul class="nav pull-right" style="direction: rtl; float: left;">
                             <li class="dropdown">
                                 <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i>  <i class="caret"></i>
-Hi, {{$user->username}}
+ !السلام عليكم   
+ {{$user->username}}  
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
