@@ -22,7 +22,9 @@ class GenerateReportController extends BaseController {
             
             $userController = new UserController();
             $user = $userController->isLogged();            
-            return View::make('GR',['user' =>$user ]);
+            $citys = City::all();
+            $date1 = date('m/d/Y');
+            return View::make('GR',['user' =>$user,'citys' =>$citys ,'date1' => $date1]);
                     
         }
         function greportPagePost(){

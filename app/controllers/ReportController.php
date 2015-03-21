@@ -37,10 +37,24 @@ class ReportController extends BaseController {
             }
 
 
-		$newspapers = NewspaperView::all();
-            $prs = PressRelease::where('date',$date)->get();
-          
-            return View::make('report',['user' =>$user,'newspapers' =>$newspapers,'prs' =>$prs,'date1'=>$date1]);
+		
+            if(Input::has('city')){
+                $ci = Input::get('city');
+                
+                $newspapers = NewspaperView::where('ID',$ci)->get();
+            
+                
+           }
+            else{
+                   $newspapers = NewspaperView::all();
+            
+                
+                  
+                
+            }
+              $prs = PressRelease::where('date',$date)->get();
+            $citys = City::all();
+            return View::make('report',['citys'=>$citys,'user' =>$user,'newspapers' =>$newspapers,'prs' =>$prs,'date1'=>$date1]);
                     
         
             
@@ -59,7 +73,7 @@ class ReportController extends BaseController {
             $userC = new UserController();
             
             //$userID =  $userC->isLogged()->id;
-            $userID = 0;
+            $userID = Auth::user()->id;
 		$pressr = PressRelease::where('pr_ID',$prID)->first();		
             
 	$date = $pressr->date;
@@ -126,7 +140,22 @@ class ReportController extends BaseController {
             $date2 = DateTime::createFromFormat('m/d/Y', $date);
                 $date = $date2->format('Y-m-d');
             }
-            $newspapers = NewspaperView::all();
+            
+              if(Input::has('city')){
+                $ci = Input::get('city');
+             
+                
+                $newspapers = NewspaperView::where('cityID',$ci)->get();
+               
+                
+           }
+            else{
+                   $newspapers = NewspaperView::all();
+            
+                
+                  
+                
+            }
             $prs = PressRelease::where('date',$date)->get();
             $report = Report::where('date',$date)->get();
             $gReport = false;

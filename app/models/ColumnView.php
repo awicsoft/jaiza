@@ -2,7 +2,7 @@
 
 
 
-class ColumnV extends Eloquent {
+class ColumnView extends Eloquent {
 
 
 	/**
@@ -10,7 +10,7 @@ class ColumnV extends Eloquent {
 	 *
 	 * @var string
 	 */
-	protected $table = 'columnv';
+	protected $table = 'columnview';
 
 	/**
 	 * The attributes excluded from the model's JSON form.

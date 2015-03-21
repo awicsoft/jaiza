@@ -17,7 +17,7 @@
     }
 $(document).ready(function(){
     
-updateTable('{{Input::get('date')}}');
+updateTable1();
 //loadAll();
     $("#btn1").click(function(){
        
@@ -34,7 +34,8 @@ updateTable('{{Input::get('date')}}');
 
 
 });
- function addAll(){
+
+    function addAll(){
      
      @foreach($prs as $pr)
             @foreach($newspapers as $newspaper)
@@ -100,10 +101,13 @@ updateTable('{{Input::get('date')}}');
        $("#p"+prID+"g"+npID).val(pg);
       
  }
- 
-function updateTable(date){
+function updateTable1(){
+updateTable('{{Input::get('date')}}','{{Input::get('city')}}');
 
-     $("#reportTable").load("reportTable?date="+date+"&add=2");
+} 
+function updateTable(date ,city){
+
+     $("#reportTable").load("reportTable?date="+date+"&add=2"+"&city="+city);
 
 }
 function report(){
