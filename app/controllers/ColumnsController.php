@@ -78,18 +78,19 @@ class ColumnsController extends BaseController {
            $date = date('Y-m-d');
           
            $scancopy  = "";
-            if(Input::hasFile('image') && Input::file('image')->isValid())
+            if(Input::hasFile('image') )//&& Input::file('image')->isValid())
            {
-               
+           
+                    echo "<script>alert('file uploaded') </script>";
+           
                   $destinationPath = 'uploads'; // upload path
               $extension = Input::file('image')->getClientOriginalExtension(); // getting image extension
-              $fileName = rand(11111,99999).'.'.$extension; // renameing image
+              $fileName = md5(rand(11111,99999)+time()+Auth::user()->ID).'.'.$extension; // renameing image
               Input::file('image')->move($destinationPath, $fileName); // uploading file to given path
 
                  $scancopy  = $destinationPath."/".$fileName;
                
            
-               echo "<script>alert('ADDED') </script>";
                
                
            }

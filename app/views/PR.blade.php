@@ -136,7 +136,7 @@ function   updateTagOptions(){
                                                 
                                           </div>
                                         </td>
-                                        <td id='tagForm'></td>
+                                      <!--  <td id='tagForm'></td>-->
         </div>                                 
    </tr>                                    
 </table>

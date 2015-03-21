@@ -29,6 +29,8 @@ class PressReleaseController extends BaseController {
         }
         
         function pReleasePagePost(){
+            ini_set("upload_max_filesize", "99M");
+         
             $userController = new UserController();
             $tagController = new TagController();
             
@@ -44,8 +46,49 @@ class PressReleaseController extends BaseController {
                 $ts =   $tagController->arrToCommaSperated($tags);
            $userID = $userController->isLogged()->id;
            $btnAdd = Input::get('btnAdd');
+            $scancopy  = "";
+         
            if(!empty($btnAdd))
            { 
+                    if(Input::has('image')){   
+                    $file = Input::file('image'); // your file upload input field in the form should be named 'file'
+
+                    //var_dump($file);
+                    $rules = array(
+                        'image' => 'mimes:jpeg,bmp,png|max:999999'
+                    );
+                      $validator = Validator::make( array('image'=> $file) , $rules);
+                        if( $validator->passes() && Input::hasFile('image'))
+                    {                      
+
+                           echo "<script>alert('validate') </script>";
+
+
+                    }else
+                    {
+
+                          echo "file Validation Fails . ERROR : ";
+                        exit();
+
+                    }
+
+                        if(Input::hasFile('image') )
+                       {
+                           echo "<script>alert('file uploaded') </script>";
+
+
+                              $destinationPath = 'uploads'; // upload path
+                          $extension = Input::file('image')->getClientOriginalExtension(); // getting image extension
+                          $fileName = md5(rand(11111,99999)+time()+Auth::user()->ID).'.'.$extension; // renameing image
+                          Input::file('image')->move($destinationPath, $fileName); // uploading file to given path
+
+                             $scancopy  = $destinationPath."/".$fileName;
+
+
+
+                       }
+        }
+               
            PressRelease::insert([
                     'title' => $title,
                     'date' => $date,
@@ -53,6 +96,7 @@ class PressReleaseController extends BaseController {
                     'detail' => $details,
                     'tag' => $ts,
                     'type' =>$type,
+                    'scancopy' =>$scancopy,
                     'leader_ID' =>$leaderID,
                     'user_ID' =>$userID
                     

@@ -44,6 +44,10 @@ Route::get('/user', 'UserController@index'
 
 //TAG ROUTE
 Route::get('/Tag','TagController@tagGet')->before('auth');;
+Route::post('/updateTag','TagController@updateTag')->before('auth');;
+Route::post('/deleteTag','TagController@deleteTag')->before('auth');;
+Route::get('/tagTable','TagController@tagTable')->before('auth');;
+
 Route::get('/tagOptions','TagController@tagOptions')->before('auth');;
 
 Route::post('/Tag','TagController@tagPost')->before('auth');;
@@ -80,6 +84,10 @@ Route::get('/uploadFileButton',function(){
 });
 Route::get('/empty',function(){
     return View::make('empty');
+    
+});
+Route::get('/jason',function(){
+    return View::make('jason');
     
 });
 Route::get('/PressRelease','PressReleaseController@pReleasePage')->before('auth');;

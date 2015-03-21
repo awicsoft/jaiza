@@ -1,5 +1,9 @@
-
+@extends('usermain')
+@section('content')
 <script>
+   $(document).ready(function(){
+updateTable();
+   });
     function addATag(){
        
       
@@ -12,15 +16,20 @@
         },
         function(data,status){
         
-        updateTagOptions();
-             
+        updateTable();             
             
        
             
         });
         
     }
-    </script>
+
+function updateTable(){
+ //   alert("ss");
+    $("#tagTable").load("tagTable");
+    
+}
+</script>
 
  <td><input id='atagName' type='text'></td>
                                         <td><div class="btn-group">
@@ -29,3 +38,7 @@
                                         
                                         
  </td>
+ <div id='tagTable'></div>
+@stop
+
+

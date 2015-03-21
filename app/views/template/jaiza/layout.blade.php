@@ -10,7 +10,14 @@
         <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
         <link href="assets/styles.css" rel="stylesheet" media="screen">
         <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notonastaliqurdudraft.css">
-       
+         <link href="http://sliptree.github.io/bootstrap-tokenfield/dist/css/tokenfield-typeahead.css" type="text/css" rel="stylesheet">
+    <!-- Tokenfield CSS -->
+    <link href="http://sliptree.github.io/bootstrap-tokenfield/dist/css/bootstrap-tokenfield.css" type="text/css" rel="stylesheet">
+    <!-- Docs CSS -->
+    <link href="http://sliptree.github.io/bootstrap-tokenfield/docs-assets/css/pygments-manni.css" type="text/css" rel="stylesheet">
+    <link href="http://sliptree.github.io/bootstrap-tokenfield/docs-assets/css/docs.css" type="text/css" rel="stylesheet">
+    
+    
  <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="vendors/flot/excanvas.min.js"></script><![endif]-->
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -18,6 +25,7 @@
         <![endif]-->
         <script src="vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
     </head>
     
     <body>
@@ -99,9 +107,16 @@
     <link href="vendors/datepicker.css" rel="stylesheet" media="screen">
         <link href="vendors/uniform.default.css" rel="stylesheet" media="screen">
         <link href="vendors/chosen.min.css" rel="stylesheet" media="screen">
+<!-- TAG INPUT BOOT STRAP-->
+        
+        <script type="text/javascript" src="http://sliptree.github.io/bootstrap-tokenfield/dist/bootstrap-tokenfield.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="http://sliptree.github.io/bootstrap-tokenfield/docs-assets/js/scrollspy.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="http://sliptree.github.io/bootstrap-tokenfield/docs-assets/js/affix.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="http://sliptree.github.io/bootstrap-tokenfield/docs-assets/js/typeahead.bundle.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="http://sliptree.github.io/bootstrap-tokenfield/docs-assets/js/docs.min.js" charset="UTF-8"></script>
 
+<!--END TAG INPUT BOOT STRAP-->
  
-
     
      <script src="vendors/jquery.uniform.min.js"></script>
         <script src="vendors/chosen.jquery.min.js"></script>
@@ -116,7 +131,12 @@
 	<script src="assets/form-validation.js"></script>
         
 	<script src="assets/scripts.js"></script>
+        
+        
+        
+        
         <script>
+            
 
 	jQuery(document).ready(function() {   
 	   FormValidation.init();

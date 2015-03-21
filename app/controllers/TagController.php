@@ -49,7 +49,7 @@ class TagController extends BaseController {
             function tagGet(){
             $tags = Tag::all();
             
-            return View::make('tag');
+            return View::make('tag',['tags' => $this->all(),'user'=>Auth::user()]);
             
                     
         }
@@ -70,18 +70,24 @@ class TagController extends BaseController {
         
         function updateTag(){
             $ID = Input::get('ID');
-          
+            $name = Input::get('name');
+            Tag::where('tag_ID',$ID)->update([
+                
+                'title_tag' =>$name
+                
+                ]);
             
         }
         function deleteTag(){
-             $ID = Input::get('ID');
-            Leader::where('Tag_ID',$ID)->delete();
-            
+             $ID = Input::get('tag_ID');
+             
+           Tag::where('tag_ID',$ID)->delete();
+            return "Sucess";
         }
         function tagTable(){
             $tags = Tag::all();
             
-            return $tags;
+            return View::make('tagTable',['tags' =>$tags]);
             
         }
         function tagOptions(){
@@ -96,5 +102,6 @@ class TagController extends BaseController {
             
             echo $ouput;
         }
+       
     
 }
