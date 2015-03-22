@@ -41,7 +41,7 @@ class PressReleaseController extends BaseController {
             $type = Input::get('type');
             $leaderID = Input::get('leaderID');
             
-            $date = date('Y-m-d');
+            $date = Input::get('date');
             
                 $ts =   $tagController->arrToCommaSperated($tags);
            $userID = $userController->isLogged()->id;

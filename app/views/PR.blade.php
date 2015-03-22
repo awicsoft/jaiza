@@ -56,6 +56,16 @@ function   updateTagOptions(){
 
 <table style="width:88%; margin-left: auto; margin-right: auto;">
     <tr><td> <label class="control-label" for="focusedInput">
+تاریخ</label></td>
+        
+        <td>
+         <input name="date" type="text" class="input-xlarge datepicker" id="date01" value="{{date('m/d/Y')}}">
+                             
+        </td>
+    
+    </tr>
+    
+    <tr><td> <label class="control-label" for="focusedInput">
 عنوان</label></td>
         
         <td>

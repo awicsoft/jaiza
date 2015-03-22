@@ -103,7 +103,7 @@ class ColumnsController extends BaseController {
            $newspaperID = Input::get('newspaperID');
            $leaderID = Input::get('leaderID');
            $type = Input::get('type');
-           $date = date('Y-m-d');
+           $date = Input::get('date');
           
            $scancopy  = "";
            if(Input::hasFile('image')){
