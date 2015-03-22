@@ -80,29 +80,31 @@ function updateTable(){
 </script>
 <div style="width:88%; margin-left: auto; margin-right: auto;">
 
-
+    <table style="width:100%;">
+        <tr>
                             
                                <div class="control-group">
-                                          <label class="control-label" for="focusedInput">شہر</label>
-                                          <div class="controls">
+         <td>                                 <label class="control-label" for="focusedInput">شہر</label>
+         </td>
+         <td>                                 <div class="controls">
                                               <input id="myField" type="text" placeholder="شہر کا نام داخل  کریں" name="city"/>
-                                          </div>
-                                        </div>
-     
+                                                </div>
+         </td>
+                              
+    </tr>
+    <tr><td colspan="3">
 <div class="form-actions">
                                         
                                           <button id="btn1" class="btn btn-primary" >درج کریں</button> 
                                         </div>     
+        </td>                  
+    </tr>                          
+ 
                              
-                           
-    
+
+</table>
+
 </div>
-    
-                             
-
-
-
-
 
 @stop
 

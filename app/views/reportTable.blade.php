@@ -1,24 +1,31 @@
 
-<table style="width:100%; margin-left: auto; margin-right: auto;" border='10px'>
+<table style="width:100%; margin-left: auto; margin-right: auto;" border='5px'>
     <tr>
-        <th style="height: 40px;">پریس ریلیز</th>
+        <th style= "width: 20px;text-align: center;"></th>
+        <th style="height: 40px; text-align: center;">جاری کردہ خبر یں</th>
         @foreach($newspapers as $newspaper)
-        <th>{{$newspaper->name}}<span lang="ur" dir="rtl" style="font-size:9px ; ">({{$newspaper->cityName}})</span></th>
+        <th style= "text-align: center;">{{$newspaper->name}}<!--<span lang="ur" dir="rtl" style="font-size:9px ; ">({{$newspaper->cityName}})</span>--></th>
         @endforeach
     </tr>
+    <?php $count =1;?>
     @foreach($prs as $pr)
     <tr>
-        <td>
+        <td style= "width: 20px;text-align: center;">
+            <?php echo $count; $count++;?>
+        </td>
+        <td >
             {{$pr->title}}
         </td>
         @foreach($newspapers as $newspaper)
-       <td>
+       <td  style= "text-align: center;">
            <form method="post"> 
                <input style="width:10px" type="hidden" name='prID' value="{{$pr->pr_ID}}" />
             <input style="width:10px" type="hidden" name='npID' value="{{$newspaper->ID}}" />
             <?php 
             $columnNO  = "";
             $pageNO = "";
+            
+           
             foreach($reports as $report){
                     if($report->pressrelease_ID == $pr->pr_ID && $report->newspaper_ID == $newspaper->ID){
                        $columnNO  =  $report->columnNO;

@@ -176,9 +176,6 @@ function   updateTagOptions(){
                                                 
                                                 </div></div></div>
                                         
-                                        <div id="prTable">
-                                      
-                                        </div>
                                         
                                             </div>
                             </div>
@@ -199,3 +196,10 @@ function   updateTagOptions(){
 
 @stop
 
+
+@section('content2')
+                                        <div id="prTable">
+                                      
+                                        </div>
+
+@stop

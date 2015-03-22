@@ -101,26 +101,6 @@ function updateTable(){
                                           <button id="btn1" class="btn btn-primary">لیڈر شامل کریں</button>
                                         </div>     
          
-                            <div class="block-content collapse in">
-                                <div class="span12">
-                                   <div class="table-toolbar">
-                                      <div class="btn-group">
-                                       
-                                         
-                                              
-                                      </div>
-                                      
-                                   </div>
-                                    
-                                    <div id="example2_wrapper" class="dataTables_wrapper form-inline" role="grid"><div class="row"><div class="span6"></div>
-                                            
-                                            <div class="span6"><div id="example2_filter" class="dataTables_filter">   
-                                                
-                                                </div></div></div>
-                                    </div></div></div>                                          
-                                        <div id="leaderTable">
-                                      
-                                        </div>
                                         
                                             </div>
                             </div>
@@ -138,3 +118,10 @@ function updateTable(){
 
 @stop
 
+
+@section('content2')
+                                        <div id="leaderTable">
+                                      
+                                        </div>
+     
+@stop

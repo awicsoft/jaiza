@@ -17,7 +17,9 @@ function updateTable(date,city){
 function report(){
          var date = $("#date01").val();
           var city = $("#city01").val();
-    updateTable(date,city);
+     var myWindow = window.open("popupReport?city="+city+"&date="+date, "", "width=2000, height=1200");
+
+        updateTable(date,city);
 }
 </script>
 

@@ -56,6 +56,20 @@ Route::post('/Tag','TagController@tagPost')->before('auth');;
 //Generate Report Route
 Route::get('/generateReportTable','GenerateReportController@generateReportTable')->before('auth');;
 
+Route::get('/getCityName',function(){
+    $city_ID = Input::get('ID');
+    return City::where('city_ID',$city_ID)->first()->name;
+    
+    
+})->before('auth');;
+
+Route::get('/popupReport',function(){
+    
+    return View::make('popupReport',['user' => Auth::user()]);
+    
+})->before('auth');;
+
+
 Route::get('/gImportantNew','GenerateReportController@gImportantNew')->before('auth');;
 Route::get('/gIdaria','GenerateReportController@gIdaria')->before('auth');;
 Route::get('/gColumn','GenerateReportController@gColumn')->before('auth');;

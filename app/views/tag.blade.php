@@ -38,7 +38,9 @@ function updateTable(){
                                         
                                         
  </td>
- <div id='tagTable'></div>
 @stop
+@section('content2')
+ <div id='tagTable'></div>
 
+@stop
 
