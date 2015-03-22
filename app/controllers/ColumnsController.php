@@ -60,6 +60,34 @@ class ColumnsController extends BaseController {
             }
           }
         }
+        function pathToFile(){
+                  $file = ['image' => Input::file('image')];
+              // setting up rules
+              $rules = [
+                            'image' => 'mimes:jpeg,bmp,png|max:999999'
+                        ]; //mimes:jpeg,bmp,png and for max size max:10000
+                      // doing the validation, passing post data, rules and the messages
+                 $validator = Validator::make($file, $rules);
+                if ($validator->fails()) {
+                 // send back to the page with the input data and errors
+                  echo "Validator Fails";
+
+                  exit();
+                }
+                if (!Input::file('image')->isValid()){
+                    echo "File is Not Valid";
+                    exit();
+                }
+
+                    $destinationPath = 'uploads'; // upload path
+                    $extension = Input::file('image')->getClientOriginalExtension(); // getting image extension
+                    $fileName = rand(11111,99999)."".time().'.'.$extension; // renameing image
+                    Input::file('image')->move($destinationPath, $fileName); // uploading file to given path
+                    // sending back with message
+                    $scancopy = $destinationPath."/".$fileName;
+                    return $scancopy;
+            
+        }
         function columnsPagePost(){
             $btnAdd = Input::get('btnAdd');
            if(!empty($btnAdd)){
@@ -78,21 +106,9 @@ class ColumnsController extends BaseController {
            $date = date('Y-m-d');
           
            $scancopy  = "";
-            if(Input::hasFile('image') )//&& Input::file('image')->isValid())
-           {
-           
-                    echo "<script>alert('file uploaded') </script>";
-           
-                  $destinationPath = 'uploads'; // upload path
-              $extension = Input::file('image')->getClientOriginalExtension(); // getting image extension
-              $fileName = md5(rand(11111,99999)+time()+Auth::user()->ID).'.'.$extension; // renameing image
-              Input::file('image')->move($destinationPath, $fileName); // uploading file to given path
-
-                 $scancopy  = $destinationPath."/".$fileName;
-               
-           
-               
-               
+           if(Input::hasFile('image')){
+               $file = new FileController();
+               $scancopy  = $file->pathToFile('image');
            }
            Columns::insert([
                'date' => $date,

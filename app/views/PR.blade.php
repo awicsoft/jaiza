@@ -52,7 +52,8 @@ function   updateTagOptions(){
     
 }
 </script>
-<form method="post">
+{{ Form::open( [ 'url' => 'PressRelease', 'method' => 'post', 'files' => true ] ) }}
+
 <table style="width:88%; margin-left: auto; margin-right: auto;">
     <tr><td> <label class="control-label" for="focusedInput">
 عنوان</label></td>

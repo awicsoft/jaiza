@@ -50,57 +50,24 @@ class PressReleaseController extends BaseController {
          
            if(!empty($btnAdd))
            { 
-                    if(Input::has('image')){   
-                    $file = Input::file('image'); // your file upload input field in the form should be named 'file'
+          
+               $scancopy  = "";
+                if(Input::hasFile('image')){
+                    $file = new FileController();
+                    $scancopy  = $file->pathToFile('image');
+                 }
+                PressRelease::insert([
+                         'title' => $title,
+                         'date' => $date,
+                         'place' => $place,
+                         'detail' => $details,
+                         'tag' => $ts,
+                         'type' =>$type,
+                         'scancopy' =>$scancopy,
+                         'leader_ID' =>$leaderID,
+                         'user_ID' =>$userID
 
-                    //var_dump($file);
-                    $rules = array(
-                        'image' => 'mimes:jpeg,bmp,png|max:999999'
-                    );
-                      $validator = Validator::make( array('image'=> $file) , $rules);
-                        if( $validator->passes() && Input::hasFile('image'))
-                    {                      
-
-                           echo "<script>alert('validate') </script>";
-
-
-                    }else
-                    {
-
-                          echo "file Validation Fails . ERROR : ";
-                        exit();
-
-                    }
-
-                        if(Input::hasFile('image') )
-                       {
-                           echo "<script>alert('file uploaded') </script>";
-
-
-                              $destinationPath = 'uploads'; // upload path
-                          $extension = Input::file('image')->getClientOriginalExtension(); // getting image extension
-                          $fileName = md5(rand(11111,99999)+time()+Auth::user()->ID).'.'.$extension; // renameing image
-                          Input::file('image')->move($destinationPath, $fileName); // uploading file to given path
-
-                             $scancopy  = $destinationPath."/".$fileName;
-
-
-
-                       }
-        }
-               
-           PressRelease::insert([
-                    'title' => $title,
-                    'date' => $date,
-                    'place' => $place,
-                    'detail' => $details,
-                    'tag' => $ts,
-                    'type' =>$type,
-                    'scancopy' =>$scancopy,
-                    'leader_ID' =>$leaderID,
-                    'user_ID' =>$userID
-                    
-                ]);
+                     ]);
            } 
            return $this->pReleasePage();
             
