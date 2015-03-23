@@ -65,6 +65,7 @@ Route::get('/getCityName',function(){
 
 Route::get('/popupReport',function(){
     
+    
     return View::make('popupReport',['user' => Auth::user()]);
     
 })->before('auth');;
@@ -77,6 +78,12 @@ Route::get('/gColumn','GenerateReportController@gColumn')->before('auth');;
 
 Route::get('/GenerateReport','GenerateReportController@gReportPage')->before('auth');;
 Route::post('/GenerateReport','GenerateReportController@gReportPost')->before('auth');;
+//
+//CReport Route
+Route::get('/cReport','CReportController@creportPage')->before('auth');
+Route::get('/tableElement','CReportController@tableElement')->before('auth');
+Route::get('/cReportTable','CReportController@cReportTable')->before('auth');
+
 
 //Report Route
 Route::get('/reportTable','ReportController@reportTable')->before('auth');
