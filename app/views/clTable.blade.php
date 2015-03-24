@@ -40,7 +40,6 @@
                                                 
                                                <td class=" ">
                                                  
-                                                     <button onclick="editPressRelease({{$cl->colmuns_ID}})"  class="btn btn-primary">ترمیم کریں</button>
                                                      <button onclick="deleteColumns({{$cl->colmuns_ID}})"  class="btn btn-danger">
 خارج کر دیں</button>
                                                 

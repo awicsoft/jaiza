@@ -1,12 +1,13 @@
 @extends('usermain')
 
 @section('pageName')
-User Profile
+پروفائل
 @stop
 
 @section('content')
     
                              
+<div style="width:80%; margin-left: auto; margin-right: auto;">
          
                         
                         <!-- CONTENT GOES HERE -->    
@@ -22,16 +23,16 @@ User Profile
                             <div class="" ="col-sm-6">
                                 <div class="input-group mb15">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                    <input name="name" value="{{$user->name}}" class="form-control"  placeholder="Enter your Full Name" type="text">
+                                    <input name="name" value="{{$user->name}}" class="form-control"  placeholder="نام درح کریں" type="text">
                                 </div><!-- input-group -->
                             <div class="input-group mb15">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                    <input name="email" value="{{$user->email}}" class="form-control" placeholder="Enter your Email" type="text">
+                                    <input name="email" value="{{$user->email}}" class="form-control" placeholder="میل درح کریں " type="text">
                                 </div>
                             <div class="clearfix">
                             
                             <div class="">
-                                <button name="up" type="submit" class="btn btn-success">Update Personal Information <i class="fa fa-angle-right ml5"></i></button>
+                                <button name="up" type="submit" class="btn btn-success">پروئل آپڈیٹ کریں <i class="fa fa-angle-right ml5"></i></button>
                             </div>
                       
                         </form>
@@ -95,6 +96,6 @@ User Profile
                             
                       
                           
-                      
+                            </div>                      
 
 @stop

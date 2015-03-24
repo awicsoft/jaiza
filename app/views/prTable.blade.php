@@ -39,8 +39,7 @@
                                                 
                                                <td class=" ">
                                                  
-                                                     <button onclick="editPressRelease({{$pr->pr_ID}})"  class="btn btn-primary">
-ترمیم کریں</button>
+        
                                                      <button onclick="deletePressRelease({{$pr->pr_ID}})"  class="btn btn-danger">
 خارج کر دیں</button>
                                                 
