@@ -47,7 +47,7 @@ updateTable1();
     @endforeach
             
        alert("Sucessfully Added");
-       updateTable('{{Input::get('date')}}');
+       updateTable1();
 
  }
     function add(npID,prID){
@@ -86,21 +86,7 @@ updateTable1();
             
      
  }   
- function load(npID,prID){
-     
-      var col = "";
-       var pg = "";
-      
-        $.get("getCol?npID="+npID+"&prID="+prID, function(data, status){
-            col = data;
-        });
-        $.get("getPg?npID="+npID+"&prID="+prID, function(data, status){
-            pg = data;
-         });
-      $("#co"+prID+"l"+npID).val(col);
-       $("#p"+prID+"g"+npID).val(pg);
-      
- }
+ 
 function updateTable1(){
 updateTable('{{Input::get('date')}}','{{Input::get('city')}}');
 

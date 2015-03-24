@@ -102,6 +102,10 @@
                             <li >
                                 <a href="PressRelease">پریس ریلیز</a>
                             </li>
+                             <li >
+                                <a href="cReport">2رپورٹ</a>
+                            </li>
+                         
                             <li >
                                 <a href="Report">رپورٹ</a>
                             </li>

@@ -8,7 +8,10 @@
     
 function updateTable(date1,date2){
  var url = "cReportTable?date1="+date1+"&date2="+date2;
-     alert(url);
+    alert(url);
+
+        var myWindow = window.open(url, "", "width=2000, height=1200");
+
         $("#creportTable").load(url);
 
 }

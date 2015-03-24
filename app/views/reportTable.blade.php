@@ -38,8 +38,30 @@
             @if ($gReport == true)
                 {{$columnNO}}/{{$pageNO}}
             @else
-    
-            <input style="width:20px" value="{{$columnNO}}" type="text" name='cl' id="co{{$pr->pr_ID}}l{{$newspaper->ID}}" />
+                
+            <select style="width:40px" value="" type="text" name='cl' id="co{{$pr->pr_ID}}l{{$newspaper->ID}}" >
+            
+                <option @if($columnNO=='f') 
+                         selected="selected"
+                         @endif
+                         >f</option>    
+                <option
+                    @if($columnNO=='b') 
+                         selected="selected"
+                         @endif
+                    >b</option>    
+                <option
+                    @if($columnNO=='n') 
+                         selected="selected"
+                         @endif
+                    >n</option>    
+                <option 
+                        @if($columnNO=='i') 
+                         selected="selected"
+                         @endif
+                        >i</option>    
+
+            </select>
             <input style="width:20px" value="{{$pageNO}}" type="text" name='pg' id="p{{$pr->pr_ID}}g{{$newspaper->ID}}" />
             @endif
 

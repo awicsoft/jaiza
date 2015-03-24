@@ -42,8 +42,10 @@ class PressReleaseController extends BaseController {
             $leaderID = Input::get('leaderID');
             
             $date = Input::get('date');
-            
-                $ts =   $tagController->arrToCommaSperated($tags);
+                 $date2 = DateTime::createFromFormat('m/d/Y', $date);
+                $date = $date2->format('Y-m-d');
+           
+           $ts =   $tagController->arrToCommaSperated($tags);
            $userID = $userController->isLogged()->id;
            $btnAdd = Input::get('btnAdd');
             $scancopy  = "";

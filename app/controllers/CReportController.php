@@ -40,7 +40,14 @@ class CReportController extends BaseController {
             $newspaperName = Input::get('newspaperName');
               $date1 = Input::get('date1');
             $date2 = Input::get('date2');
+        
+            return $this->element($cityID, $newspaperName, $date1, $date2);
             
+          
+        }
+        function element( $cityID,$newspaperName,$date1,$date2){
+          
+           
             
            $newsp = Newspaper::where('city_id',$cityID)->where('name',$newspaperName);
             if($newsp->count()){
@@ -56,7 +63,7 @@ class CReportController extends BaseController {
             
             return "empty";
         }
-        
+
         function cReportTable(){
             
            $date1 = Input::get('date1');
@@ -67,14 +74,27 @@ class CReportController extends BaseController {
             $citys = City::all();
             $newspapers = Newspaper::distinct()->get(array('name'));
             $newspapers = Newspaper::groupby('name')->get();
+            $arr = [];
             
             
+            foreach($citys as $city)
+            { 
+                foreach($newspapers as $newspaper)
+                {
+                    $cityID = $city->city_ID;
+                     $newspaperName = $newspaper->name;
+                     
+                    $element  = $this->element($cityID, $newspaperName, $date1, $date2);
+                    array_push($arr,$element);
+                    
+                }
+            }
             return View::make('creportTable',[
                 'date1' => $date1,
                 'date2' => $date2,
                 'citys' => $citys,
-                'newspapers' => $newspapers
-                
+                'newspapers' => $newspapers,
+                'data' => $arr
                 ]);
             
         }
