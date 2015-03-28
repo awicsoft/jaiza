@@ -162,7 +162,23 @@ function   updateTagOptions(){
                                         </td>
             
         </div>                                 
-   </tr>                                    
+   </tr>
+   <tr>    
+        
+        <div class="control-group">
+                                        <td>  <label class="control-label" for="multiSelect2"></label>
+                                        </td>
+                                        <td>
+                                            <div class="controls">
+                                           <input type="radio" name="dec"  checked="checked" value="haq">حق میں ہے
+                                            <input type="radio" name="dec" value="khalaf">خلاف
+                                                 <input type="radio" name="dec" value="gyr">غیرجانبدار
+                                          
+                                          </div>
+                                        </td>
+            
+        </div>                                 
+   </tr>
 </table>
 
                             

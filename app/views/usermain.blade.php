@@ -103,14 +103,15 @@
                                 <a href="PressRelease">پریس ریلیز</a>
                             </li>
                              <li >
-                                <a href="cReport">2رپورٹ</a>
+                                <a href="cReport">تمام مراکز کی تقابلی رپورٹ</a>
                             </li>
                          
+                            
                             <li >
-                                <a href="Report">رپورٹ</a>
+                                <a href="GenerateReport">روزانہ کی رپوٹ</a>
                             </li>
                             <li >
-                                <a href="GenerateReport">رپورٹ پیدا</a>
+                                <a href="Report">رپورٹ میں اضافہ کریں</a>
                             </li>
                             <li >
                                 <a href="index">ڈیش بورڈ</a>

@@ -14,6 +14,9 @@
             <?php echo $count; $count++;?>
         </td>
         <td >
+            @if($pr->type=='PIC')
+            تصویر:
+            @endif
             {{$pr->title}}
         </td>
         @foreach($newspapers as $newspaper)
@@ -39,6 +42,9 @@
                 {{$columnNO}}/{{$pageNO}}
             @else
                 
+            
+            <input style="width:20px" value="{{$pageNO}}" type="text" name='pg' id="p{{$pr->pr_ID}}g{{$newspaper->ID}}" />
+            
             <select style="width:40px" value="" type="text" name='cl' id="co{{$pr->pr_ID}}l{{$newspaper->ID}}" >
             
                 <option @if($columnNO=='f') 
@@ -62,7 +68,7 @@
                         >i</option>    
 
             </select>
-            <input style="width:20px" value="{{$pageNO}}" type="text" name='pg' id="p{{$pr->pr_ID}}g{{$newspaper->ID}}" />
+            
             @endif
 
             <!-- <button>a</button>-->

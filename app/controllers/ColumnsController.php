@@ -99,12 +99,15 @@ class ColumnsController extends BaseController {
            $tags = Input::get('tags');
            $tags =  $tagController->arrToCommaSperated($tags);
            $link  = Input::get('link');
-          
+          $dec = Input::get('dec');
            $newspaperID = Input::get('newspaperID');
            $leaderID = Input::get('leaderID');
            $type = Input::get('type');
-           $date = Input::get('date');
-          
+           
+         
+          $date = Input::get('date');
+                 $date2 = DateTime::createFromFormat('m/d/Y', $date);
+                $date = $date2->format('Y-m-d');
            $scancopy  = "";
            if(Input::hasFile('image')){
                $file = new FileController();
@@ -120,7 +123,8 @@ class ColumnsController extends BaseController {
                'scancopy' => $scancopy,
                'leader_ID' =>$leaderID,
                'type' => $type,
-               'newspaper_ID' =>$newspaperID
+               'newspaper_ID' =>$newspaperID,
+               'dec' => $dec
                
            ]);
            

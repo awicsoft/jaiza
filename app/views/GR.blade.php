@@ -29,7 +29,7 @@ function report(){
                                              <input name="date" type="text" class="input-xlarge datepicker" id="date01" value="{{$date1}}">
                                              <label class="control-label" for="date01">شہر کا نام</label>
                                              <select name='city' id='city01'>
-                                                 <option></option>
+                                                 
                                                  @foreach($citys as $city)
                                                  <option value="{{$city->city_ID}}">{{$city->name}}</option>
                                                  @endforeach

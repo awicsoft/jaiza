@@ -167,7 +167,7 @@ class ReportController extends BaseController {
             if(count($prs))
                 return View::make('reportTable',['newspapers' =>$newspapers,'prs' =>$prs ,'reports' =>$report,'gReport' => $gReport]);
             else
-                return "<h2>Sorry No PressRelease in this date</h2>";
+                return "<p>منتخب تاریخ میں کوئی پریس رلیز نہیں ملیں</p>";
         
             
         }

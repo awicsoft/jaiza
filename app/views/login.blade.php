@@ -6,7 +6,7 @@
             <div class="panel panel-signin">
                 <div class="panel-body">
                     <div class="logo text-center">
-                        <img src="images/logo-primary.png" alt="Jaiza" >
+                        <H3>	شعبہ نشرواشاعت جماعت اسلامی پاکستان</h3>
                     </div>
                     <br />
                     <h4 class="text-center mb5">پہلے سے ہی رکن ؟</h4>

@@ -107,8 +107,8 @@ function   updateTagOptions(){
         
         <td>
             <select onchange= "makeSelectAction()" id='type' name="type">
-                <option>PR</option>
-                <option >PIC</option>
+                <option value="PR"> پریس ریلیز</option>
+                <option value="PIC">تصویر</option>
             </select>
                                         
         </td>

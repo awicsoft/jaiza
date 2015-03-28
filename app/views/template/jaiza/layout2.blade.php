@@ -2,7 +2,7 @@
 <html  dir="rtl" lang="ur">
     
     <head>
-        <title>جاءزا</title>
+        <title>	شعبہ نشرواشاعت جماعت اسلامی پاکستان</title>
         <!-- Bootstrap -->
         <meta charset="utf-8">
         <style>
