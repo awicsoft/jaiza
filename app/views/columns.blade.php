@@ -17,7 +17,8 @@ loadTable();
 
 
 });
-function loadTable(){
+
+    function loadTable(){
     
      $("#prTable").load("columnsTable");
  

@@ -37,7 +37,8 @@ function emptyUploadButton(){
    // alert("ss");
      $("#uploadFileButton").load("empty");
 } 
-function loadTable(){
+
+    function loadTable(){
     
      $("#prTable").load("pressReleaseTable");
  
@@ -51,6 +52,7 @@ function   updateTagOptions(){
      location.reload();
     
 }
+
 </script>
 {{ Form::open( [ 'url' => 'PressRelease', 'method' => 'post', 'files' => true ] ) }}
 

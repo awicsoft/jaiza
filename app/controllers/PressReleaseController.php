@@ -75,8 +75,34 @@ class PressReleaseController extends BaseController {
             
         }
         function pressReleaseTable(){
-            $prs = PressRelease::all();
-            return View::make('prTable',['prs' => $prs]);
+       
+                 $btn = Input::get('btn');
+        
+           
+         $pre = Input::get('pre');
+            $date=date('Y-m-d');
+            
+           
+            if($btn=="<" ){
+            
+                $pre--;             
+            
+           
+                     $date =  date('Y-m-d',strtotime("$pre day"));
+                            
+                        }
+			else if($btn == ">" )
+                        {
+                            
+                            $pre++;             
+                            
+                             $date =  date('Y-m-d',strtotime("$pre day"));
+                            
+                        }
+		
+                            $prs = PressRelease::where('date',$date)->get();
+                        
+            return View::make('prTable',['prs' => $prs,'tdate'=>$date,'pre'=>$pre]);
             
             
         }

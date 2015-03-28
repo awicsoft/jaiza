@@ -140,9 +140,36 @@ class ColumnsController extends BaseController {
         
     }
     function columnsTable(){
+ 
+           $btn = Input::get('btn');
         
-        $colums = Columns::all();
-        return View::make('clTable',['cls'=>$colums]);
+           
+            $pre = Input::get('pre');
+            
+            $date=date('Y-m-d');
+            
+           
+              if($btn=="<" ){
+                 
+                $pre--;             
+            
+           
+                     $date =  date('Y-m-d',strtotime("$pre day"));
+                            
+                        }
+			else if($btn == ">" )
+                        {
+                            
+                            $pre++;             
+                            
+                             $date =  date('Y-m-d',strtotime("$pre day"));
+                            
+                        }
+		
+                            $colums = Columns::where('date',$date)->get();
+                        
+            
+        return View::make('clTable',['cls'=>$colums,'tdate'=>$date,'pre'=>$pre]);
         
     }
 }

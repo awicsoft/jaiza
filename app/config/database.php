@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'jaiza',
-			'username'  => 'root',
-			'password'  => '',
+			'database'  => 'jamaator_media',
+			'username'  => 'jamaator_media',
+			'password'  => 'tXzGM;D?1qTl',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

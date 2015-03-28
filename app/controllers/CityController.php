@@ -23,7 +23,7 @@ class CityController extends BaseController {
             $userController = new UserController();
             $user = $userController->isLogged();
            
-            return View::make('City',['user' =>$user ]);
+            return View::make('city',['user' =>$user ]);
                     
         }
         function cityTable(){

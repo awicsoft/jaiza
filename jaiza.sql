@@ -339,7 +339,7 @@ INSERT INTO `user` (`id`, `name`, `email`, `password`, `isAdmin`, `username`, `t
 --
 DROP TABLE IF EXISTS `columnview`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `columnview` AS select `cl`.`colmuns_ID` AS `ID`,`cl`.`title` AS `title`,`cl`.`summary` AS `summary`,`cl`.`date` AS `date`,`cl`.`link` AS `link`,`cl`.`scancopy` AS `scancopy`,`cl`.`tags` AS `tags`,`cl`.`details` AS `details`,`cl`.`type` AS `type`,`cl`.`leader_ID` AS `leaderID`,`l`.`name` AS `leaderName`,`l`.`designation` AS `leaderDesignation`,`cl`.`newspaper_ID` AS `newspaperID`,`n`.`name` AS `newspaperName`,`c`.`name` AS `newspaperCity`,`c`.`city_ID` AS `newspaperCityID` from (((`colmuns` `cl` join `leader` `l`) join `newspaper` `n`) join `city` `c`) where ((`cl`.`leader_ID` = `l`.`leader_ID`) and (`cl`.`newspaper_ID` = `n`.`newspaper_ID`) and (`n`.`city_id` = `c`.`city_ID`));
+CREATE ALGORITHM=UNDEFINED DEFINER=`jamaator_media`@`localhost` SQL SECURITY DEFINER VIEW `columnview` AS select `cl`.`colmuns_ID` AS `ID`,`cl`.`title` AS `title`,`cl`.`summary` AS `summary`,`cl`.`date` AS `date`,`cl`.`link` AS `link`,`cl`.`scancopy` AS `scancopy`,`cl`.`tags` AS `tags`,`cl`.`details` AS `details`,`cl`.`type` AS `type`,`cl`.`leader_ID` AS `leaderID`,`l`.`name` AS `leaderName`,`l`.`designation` AS `leaderDesignation`,`cl`.`newspaper_ID` AS `newspaperID`,`n`.`name` AS `newspaperName`,`c`.`name` AS `newspaperCity`,`c`.`city_ID` AS `newspaperCityID` from (((`colmuns` `cl` join `leader` `l`) join `newspaper` `n`) join `city` `c`) where ((`cl`.`leader_ID` = `l`.`leader_ID`) and (`cl`.`newspaper_ID` = `n`.`newspaper_ID`) and (`n`.`city_id` = `c`.`city_ID`));
 
 -- --------------------------------------------------------
 
@@ -348,7 +348,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 --
 DROP TABLE IF EXISTS `greport`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `greport` AS select `report`.`report_ID` AS `ID`,`report`.`date` AS `date`,`report`.`pageNO` AS `pageNO`,`report`.`columnNO` AS `columnNO`,`report`.`link` AS `link`,`report`.`scancopy` AS `scancopy`,`report`.`user_ID` AS `userID`,`report`.`newspaper_ID` AS `newspaperID`,`report`.`pressrelease_ID` AS `pressreleaseID`,`newspaper`.`name` AS `newspaperName`,`pressrelease`.`title` AS `pressreleaseName` from ((`report` join `newspaper`) join `pressrelease`) where ((`report`.`newspaper_ID` = `newspaper`.`newspaper_ID`) and (`report`.`pressrelease_ID` = `pressrelease`.`pr_ID`));
+CREATE ALGORITHM=UNDEFINED DEFINER=`jamaator_media`@`localhost` SQL SECURITY DEFINER VIEW `greport` AS select `report`.`report_ID` AS `ID`,`report`.`date` AS `date`,`report`.`pageNO` AS `pageNO`,`report`.`columnNO` AS `columnNO`,`report`.`link` AS `link`,`report`.`scancopy` AS `scancopy`,`report`.`user_ID` AS `userID`,`report`.`newspaper_ID` AS `newspaperID`,`report`.`pressrelease_ID` AS `pressreleaseID`,`newspaper`.`name` AS `newspaperName`,`pressrelease`.`title` AS `pressreleaseName` from ((`report` join `newspaper`) join `pressrelease`) where ((`report`.`newspaper_ID` = `newspaper`.`newspaper_ID`) and (`report`.`pressrelease_ID` = `pressrelease`.`pr_ID`));
 
 -- --------------------------------------------------------
 
@@ -357,7 +357,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 --
 DROP TABLE IF EXISTS `newspaperview`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `newspaperview` AS select `newspaper`.`newspaper_ID` AS `ID`,`newspaper`.`circularPeriod` AS `circularPeriod`,`newspaper`.`website` AS `website`,`newspaper`.`name` AS `name`,`newspaper`.`language` AS `language`,`newspaper`.`city_id` AS `cityID`,`city`.`name` AS `cityName` from (`newspaper` join `city`) where (`newspaper`.`city_id` = `city`.`city_ID`);
+CREATE ALGORITHM=UNDEFINED DEFINER=`jamaator_media`@`localhost` SQL SECURITY DEFINER VIEW `newspaperview` AS select `newspaper`.`newspaper_ID` AS `ID`,`newspaper`.`circularPeriod` AS `circularPeriod`,`newspaper`.`website` AS `website`,`newspaper`.`name` AS `name`,`newspaper`.`language` AS `language`,`newspaper`.`city_id` AS `cityID`,`city`.`name` AS `cityName` from (`newspaper` join `city`) where (`newspaper`.`city_id` = `city`.`city_ID`);
 
 --
 -- Constraints for dumped tables

@@ -34,7 +34,7 @@
                     
                 </div><!-- panel-body -->
                 <div class="panel-footer">
-                    <a href="register" class="btn btn-primary btn-block">Not yet a Member? Create Account Now</a>
+                    <a href="login" class="btn btn-primary btn-block">Login here</a>
                 </div><!-- panel-footer -->
             </div><!-- panel -->
             

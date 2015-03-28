@@ -11,12 +11,7 @@
 |
 */
 
-Route::get('/addToken/{code}', function($code)
-{
-    Analytics::where('ID',1)->update(['token' => $code]);
-    return Redirect::to('analytics');
-    
-});
+
 Route::get('/', function()
 {
     return View::make('frontend'); 
@@ -141,12 +136,12 @@ Route::post('/City','CityController@cityPagePost')->before('auth');;
 
 Route::post('/updateCity','CityController@updateCity')->before('auth');;
 //Newspaper Route
-Route::get('/newspaperTable','NewspaperController@newspaperTable')->before('auth');;
+Route::get('/newspaperTable','NewsPaperController@newspaperTable')->before('auth');;
 
-Route::get('/Newspaper','NewspaperController@newspaperPage')->before('auth');;
-Route::post('/Newspaper','NewspaperController@newspaperPagePost')->before('auth');;
-Route::post('/deleteNewspaper','NewspaperController@deleteNewspaper')->before('auth');;
-Route::post('/updateNewspaper','NewspaperController@updateNewspaper')->before('auth');;
+Route::get('/Newspaper','NewsPaperController@newspaperPage')->before('auth');;
+Route::post('/Newspaper','NewsPaperController@newspaperPagePost')->before('auth');;
+Route::post('/deleteNewspaper','NewsPaperController@deleteNewspaper')->before('auth');;
+Route::post('/updateNewspaper','NewsPaperController@updateNewspaper')->before('auth');;
 
 
 
@@ -164,11 +159,24 @@ Route::get('/recoverPasswordToken/{code}','RecoverPassword@recoverPasswordToken'
 
 Route::get('/recoverPassword','RecoverPassword@recoverPasswordForm');
 Route::post('/recoverPassword','RecoverPassword@recoverPassword');
+//register login 
+
+//Route::get('/register', 'HomeController@registerPage');
+//Route::post('/register', 'UserController@register');
 
 
-Route::get('/register', 'HomeController@registerPage');
-Route::post('/register', 'UserController@register');
+Route::get('/register', function(){
+    return "Sorry the registeration has been closed.";
+    
+});
+
+Route::post('/register',  function(){
+    return "Sorry the registeration has been closed.";
+    
+});
+
 Route::get('/login', 'HomeController@loginPage');
+
 Route::post('/login', 'UserController@login');
 
 

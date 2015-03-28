@@ -1,4 +1,20 @@
 <script>
+       function reverse(){
+
+        var pre = $("#tpre").val();
+  var url = "columnsTable?pre="+pre+"&btn=<";
+
+     $("#prTable").load(url);
+ 
+   
+}
+function forward(){
+    var pre = $("#tpre").val();
+    
+     $("#prTable").load("columnsTable?pre="+pre+"&btn=>");
+   
+}
+   
     function deleteColumns(pr_ID){
            $.post("deleteColumns",
         {
@@ -16,6 +32,18 @@
     }
     
     </script>
+        <center>
+                     <button name="btn" onclick="forward()" value="<" class="btn btn-white btn-navi btn-navi-left ml5" type="button"><</button>
+    {{$tdate}}
+                                    
+                    <button name="btn" onclick="reverse()" value=">" class="btn btn-white btn-navi btn-navi-left ml5" type="button">></button>               
+    <form>
+                    <input type="hidden" id="tpre" value="{{$pre}}" />
+                    <input type="hidden" id="tdate" value="{{$tdate}}" />
+                    </form>
+        </center>
+    
+    
 <table style="width:80%; margin-left: auto; margin-right: auto;" aria-describedby="example2_info" class="table table-striped table-bordered dataTable" id="example2" border="0" cellpadding="0" cellspacing="0">
                                         <thead>
                                             <tr role="row">
