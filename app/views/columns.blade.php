@@ -112,7 +112,7 @@ function   updateTagOptions(){
         <td>
             <select id='newspaperID' name="newspaperID">
            @foreach($newspapers as $newspaper)
-                <option value="{{$newspaper->newspaper_ID}}">{{$newspaper->name}}</option>
+                <option value="{{$newspaper->ID}}">{{$newspaper->name}}({{$newspaper->cityName}})</option>
            @endforeach     
             </select>                            
         </td>

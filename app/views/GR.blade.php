@@ -1,6 +1,6 @@
 @extends('usermain')
 @section('pageName')
-رپورٹ پیدا
+روزانہ کی رپوٹ
 @stop
 @section('content')
  

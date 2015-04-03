@@ -155,14 +155,14 @@ function isUsernameAlreadyExits($username){
 
 				$this->registerUser($username,$password,$email);
 					
-			return View::make('login',['message' => "You are Registered Sucess fully"]);
+			return View::make('newUsers',['message' => "User are Registered Sucess fully"]);
 				
 			}
 
-			return View::make('register',['message' => $message,'username' => $username,'email' => $email]);
+			return View::make('newUsers',['message' => $message,'username' => $username,'email' => $email]);
 		}catch(Exception $e){
 			$message = $e->getMessage();
-			return View::make('register',['message' => $message,'username' => $username,'email' => $email ]);
+			return View::make('newUsers',['message' => $message,'username' => $username,'email' => $email ]);
 
 
 		}
@@ -181,7 +181,8 @@ function registerUser($username,$password,$email){
 				'username' => $username,
 				'password' => $password,
 				'email' =>$email,
-                                'isAdmin' =>$isAdmin
+                                'isAdmin' =>$isAdmin,
+                                'date' =>date('Y-m-d')
 			)
 		);
                 
@@ -294,7 +295,39 @@ function logout(){
 
 	}
 
-
+function userTable(){
+ 
+           $btn = Input::get('btn');
+        
+           
+            $pre = Input::get('pre');
+            
+            $date=date('Y-m-d');
+            
+           
+              if($btn=="<" ){
+                 
+                $pre--;             
+            
+           
+                     $date =  date('Y-m-d',strtotime("$pre day"));
+                            
+                        }
+			else if($btn == ">" )
+                        {
+                            
+                            $pre++;             
+                            
+                             $date =  date('Y-m-d',strtotime("$pre day"));
+                            
+                        }
+		
+                            $users = User::where('date',$date)->get();
+                        
+            
+        return View::make('userTable',['users'=>$users,'tdate'=>$date,'pre'=>$pre]);
+        
+    }
 
 }
 

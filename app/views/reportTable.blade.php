@@ -39,7 +39,11 @@
             }    
             ?>
             @if ($gReport == true)
-                {{$columnNO}}/{{$pageNO}}
+               @if($columnNO == 'n' || empty($pageNO))
+               NILL
+               @else
+                 {{$columnNO}}/{{$pageNO}}
+                @endif
             @else
                 
             

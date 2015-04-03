@@ -1,9 +1,7 @@
 @extends('usermain')
 
 @section('pageName')
- 
-اخبار
-
+ اخبار
 @stop
 
 @section('content')

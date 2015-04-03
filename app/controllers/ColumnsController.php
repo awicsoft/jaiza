@@ -22,7 +22,7 @@ class ColumnsController extends BaseController {
             
             $userController = new UserController();
             $user = $userController->isLogged();
-            $newspapers = Newspaper::all();
+            $newspapers = NewspaperView::all();
             $tags = Tag::all();
             $leaders = Leader::all();
             return View::make('columns',['user'=>$user,'newspapers'=>$newspapers ,'tags' =>$tags ,'leaders' => $leaders]);
@@ -131,7 +131,7 @@ class ColumnsController extends BaseController {
            
            }
         
-           return $this->columnsPage();
+           return Redirect::to('Columns')->withMessage("Sucessfully Added the Column");
            
         }
     

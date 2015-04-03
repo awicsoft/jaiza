@@ -69,7 +69,7 @@ class NewsPaperController extends BaseController {
               
         function newspaperPagePost(){
             $name= Input::get('name');
-            $cityID = Input::get('cityID');
+          echo  $cityID = Input::get('cityID');
             $circularPeriod = Input::get('circularPeriod');
             $website = Input::get('website');
             $language = Input::get('language');
@@ -79,15 +79,15 @@ class NewsPaperController extends BaseController {
           
             //}
         
-              NewsPaper::insert([
+             Newspaper::insert([
                 'name' => $name ,
-               'language' =>$language,
+                'language' =>$language,
                 'circularPeriod' =>$circularPeriod,
                 'website' => $website,
                 'city_id' =>$cityID
                 ]);   
-                   return "Newspaper($name) with the city($cityID Sucessfully Added ";
-          
+                     return "Newspaper($name) with the city($cityID Sucessfully Added ";
+         
         }
     
     

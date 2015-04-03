@@ -6,7 +6,7 @@
                             <li class="dropdown">
                                 <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i>  <i class="caret"></i>
  !السلام عليكم   
- {{$user->username}}  
+ {{Auth::user()->username}}  
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
@@ -81,7 +81,11 @@
 <ul class="nav" style="float:right;">
                            
                            
-                           
+                            @if(Auth::user()->isAdmin)
+                                <li>
+                                    <a href='register'>نیاء یوزر </a>
+                                </li>
+                            @endif
                             
                             <li >
                                 <a href="Tag">ٹیگ</a>

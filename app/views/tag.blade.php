@@ -1,4 +1,9 @@
 @extends('usermain')
+@section('pageName')
+ 
+    ٹیگ
+
+@stop
 @section('content')
 <script>
    $(document).ready(function(){

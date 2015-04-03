@@ -2,7 +2,6 @@
 
 @section('pageName')
  پریس ریلیز
-
 @stop
 
 @section('content')

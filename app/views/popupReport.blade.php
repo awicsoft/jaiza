@@ -39,7 +39,8 @@ function cityName(cityID){
     function report(){
          var date = $("#date01").val();
           var city = $("#city01").val();
-     var myWindow = window.open("popupReport?city="+city+"&date="+date, "", "width=400, height=1000");
+    
+        var myWindow = window.open("popupReport?city="+city+"&date="+date, "", "width=400, height=1000");
 
         updateTable(date,city);
 }
@@ -72,11 +73,11 @@ function getMonthinUrdu(month){
 }
 </script>
 <table style="width:100%;height: 40px " >
-    <tr><td></td><td style='width:700px'> </td><td> </td><td>تیارکردہ {{$user->name}}</td><td>ناضم شعبہ  </td></tr>
+    <tr><td></td><td style='width:700px'> </td><td> </td><td>تیارکردہ: {{$usernamename}}</td><td>ناظم شعبہ: {{$nazim}} </td></tr>
  </table>
 <table style="width:100%;height: 40px " >
   
-    <tr><td><lable id='hcityName'></lable> کے اخبارات کا جائزہ</td><td style="width:250px;">تاریخ  <label id='hdate'></label>ء</td><td>شعبہ نشرواشاعت جماعت اسلامی پاکستان</td><td>( tribute -3/3 )</td><td>( New Jaiza )</td></tr>
+    <tr><td><lable id='hcityName'></lable> کے اخبارات کا جائزہ</td><td style="width:250px;">تاریخ  <label id='hdate'></label>ء</td><td>شعبہ نشرواشاعت جماعت اسلامی پاکستان</td><td></td><td></td></tr>
     
     
 </table>

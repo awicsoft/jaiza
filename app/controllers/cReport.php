@@ -71,8 +71,8 @@ class cReport {
     }
     function toString(){
         $str = "";
-        $str .=$this->f ." F "."<br>";
-        $str .=$this->b ." B "."<br>";
+        $str .=$this->f ." Front "."<br>";
+        $str .=$this->b ." Back "."<br>";
         $str .=$this->n ." Nill "."<br>";
         $str .=$this->i ." Inp "."<br>";
         return $str;

@@ -1,4 +1,7 @@
 @extends('template.jaiza.layout2')
+@pagetitle
+تمام مراکز کی تقابلی رپورٹ
+@stop
 @section('content2')
 <script>
     

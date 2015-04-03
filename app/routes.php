@@ -30,6 +30,66 @@ Route::get('/analytics', 'AnalyticsController@analytics');
 
 */
 
+Route::get('/userTable', function(){
+    if(Auth::user()->isAdmin)
+    {   
+        $user = new UserController();
+        return $user->userTable();
+        
+        
+    }
+  
+    return "YOU Are NOT ALLOWED";
+    
+}
+)->before('auth');;
+Route::get('/userTable', function(){
+    if(Auth::user()->isAdmin)
+    {   
+        $user = new UserController();
+        return $user->userTable();
+        
+        
+    }
+  
+    return "YOU Are NOT ALLOWED";
+    
+}
+)->before('auth');;
+
+Route::post('/deleteUser', function(){
+    if(Auth::user()->isAdmin)
+    {
+        $ID = Input::get('ID');
+        User::where('id',$ID)->delete();
+        return "Deleted Sucessfully";
+        }
+  
+    return "YOU Are NOT ALLOWED";
+    
+}
+)->before('auth');
+Route::post('/register', function(){
+    if(Auth::user()->isAdmin){
+        
+        $user = new UserController();
+        return $user->register();
+    }
+    return "YOU Are NOT ALLOWED";
+    
+}
+)->before('auth');
+
+Route::get('/register', function(){
+    if(Auth::user()->isAdmin){
+        
+        return View::make('newUsers');
+    }
+    return "YOU Are NOT ALLOWED";
+    
+}
+)->before('auth');
+
 
 Route::get('/index', 'UserController@index'
 )->before('auth');
@@ -60,8 +120,21 @@ Route::get('/getCityName',function(){
 
 Route::get('/popupReport',function(){
     
-    
-    return View::make('popupReport',['user' => Auth::user()]);
+    $cityID = Input::get('city');
+    $date = Input::get('date');
+                 $date2 = DateTime::createFromFormat('m/d/Y', $date);
+                $date = $date2->format('Y-m-d');
+    $report = ReportView::where('date',$date)->where('newspaperCityID',$cityID)->first();
+   $nazim = Leader::where('leader_ID',6)->first()->name;
+   if($report==NULL)
+       $usernamename = "";
+   else
+       $usernamename = $report->usernamename;
+   
+       
+   
+       return View::make('popupReport',['usernamename' => $usernamename,'nazim'=>$nazim]);
+
     
 })->before('auth');;
 
@@ -113,7 +186,7 @@ Route::post('/deletePressRelease','PressReleaseController@deletePressRelease')->
 
 //Columns Route
 Route::get('upload', function() {
-  return View::make('columns1')->before('auth');;
+  return View::make('columns1')->before('auth');
 });
 
 Route::post('upload', 'ColumnsController@upload');
@@ -165,7 +238,7 @@ Route::post('/recoverPassword','RecoverPassword@recoverPassword');
 //Route::post('/register', 'UserController@register');
 
 
-Route::get('/register', function(){
+/*Route::get('/register', function(){
     return "Sorry the registeration has been closed.";
     
 });
@@ -174,7 +247,7 @@ Route::post('/register',  function(){
     return "Sorry the registeration has been closed.";
     
 });
-
+*/
 Route::get('/login', 'HomeController@loginPage');
 
 Route::post('/login', 'UserController@login');
@@ -190,12 +263,3 @@ Route::post('/updatePersonal', 'UserController@updatePersonel')->before('auth');
 Route::post('/updatePassword', 'UserController@updatePassword')->before('auth');;
 
 
-/*Route::get('/users/','UserController@all');
-Route::get('/users/{username}',function($username){
-	$sUser = new UserController();
-
-	return $sUser->specific($username);
-	//return $username;
-
-});
-*/

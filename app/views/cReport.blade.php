@@ -1,16 +1,24 @@
 @extends('usermain')
 @section('pageName')
-رپورٹ پیدا
+تمام مراکز کی تقابلی رپورٹ
 @stop
-@section('content')
- 
 <script>
-    
-function updateTable(date1,date2){
- var url = "cReportTable?date1="+date1+"&date2="+date2;
-   ۔// alert(url);
+    function report(){
+  
+         var date1= $("#date01").val();
+         date1 = correctDate(date1);
+         var date2 = $("#date02").val();
+         date2 = correctDate(date2);
+ 
 
-        var myWindow = window.open(url, "", "width=2000, height=1200");
+        updateTable(date1,date2);
+}
+
+function updateTable(date1,date2){
+   //alert("ss");    
+        var url = "cReportTable?date1="+date1+"&date2="+date2;
+   //alert(url);
+       var myWindow = window.open(url, "", "width=2000, height=1200");
 
         $("#creportTable").load(url);
 
@@ -21,18 +29,12 @@ var arr = date.split("/");
     return arr[2]+"-"+arr[0]+"-"+arr[1];
     
 }
-function report(){
-         var date1= $("#date01").val();
-         date1 = correctDate(date1);
-         var date2 = $("#date02").val();
-         date2 = correctDate(date2);
-       
- // var city = $("#city01").val();
-     //var myWindow = window.open("popupReport?city="+city+"&date="+date, "", "width=2000, height=1200");
 
-
-        updateTable(date1,date2);
-}
+</script>
+@section('content')
+ 
+<script>
+   
 </script>
 
 <div style="width:80%; margin-left: auto; margin-right: auto;">

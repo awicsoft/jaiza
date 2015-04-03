@@ -206,3 +206,10 @@
         </body>
 
 </html>
+
+@if(Session::has('message'))
+
+    <script>alert('{{Session::get("message")}}')</script>"
+    @Session::put(['message',""]);
+    
+@endif

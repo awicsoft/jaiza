@@ -1,8 +1,7 @@
 ﻿@extends    ('usermain')
 
 @section('pageName')
-
-رپورٹ
+رپورٹ میں اضافہ کری
 @stop
 
 @section('content')
